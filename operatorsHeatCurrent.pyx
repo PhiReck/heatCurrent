@@ -97,10 +97,11 @@ class heatCurrentWithIc(kwant.operator._LocalOperator):
                     - syst.hamiltonian(a, b, time, *args[1:], **kwargs))/del_t_deriv
             return retfunc
         # use d/dt H above if not otherwise specified
-        if tderiv_Hamil == None:
-            Hdot = diff_Hamil
-        else:
+        if tderiv_Hamil:
             Hdot = tderiv_Hamil
+        else:
+            Hdot = diff_Hamil
+        
         #Create instance of explicitely t-dep terms
         self.tdepCoupling = CurrentWithArbitHop(syst, onsite=1, \
                             arbit_hop_func=Hdot, where=curr_where, \
@@ -789,7 +790,8 @@ cdef class offEnergyCurrent(kwant.operator._LocalOperator):
                 for neigh in range(num_ijneighs):
                     # get Hamiltonian H_ij as well as
                     # WF start index j_s and number of orbitals
-                    ij_pos = num_iqhops + self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
+                    ij_pos = num_iqhops + \
+                             self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
                     H_ij = H_ab_blocks.get(ij_pos)
                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]
                     j_norbs = H_ab_blocks.block_shapes[ij_pos, 1]
