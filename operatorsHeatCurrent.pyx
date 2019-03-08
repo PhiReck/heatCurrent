@@ -97,11 +97,10 @@ class heatCurrentWithIc(kwant.operator._LocalOperator):
                     - syst.hamiltonian(a, b, time, *args[1:], **kwargs))/del_t_deriv
             return retfunc
         # use d/dt H above if not otherwise specified
-        if tderiv_Hamil:
-            Hdot = tderiv_Hamil
-        else:
+        if tderiv_Hamil == None:
             Hdot = diff_Hamil
-        
+        else:
+            Hdot = tderiv_Hamil
         #Create instance of explicitely t-dep terms
         self.tdepCoupling = CurrentWithArbitHop(syst, onsite=1, \
                             arbit_hop_func=Hdot, where=curr_where, \
@@ -531,8 +530,7 @@ def _create_fullwhere_lists_for_local_ECurr(fsyst, in_where):
         # for each hopping in where (ij), we have to store
         # the relative positions of the connected hoppings (ik)
         # in the extended flattened offwhere
-        for _ in range(len(neigh_whereaux[i_idx])):
-            wherepos_neigh_stacked.append(wherepos_neigh_dummy)
+        wherepos_neigh_stacked.append(wherepos_neigh_dummy)
 
     # append new hoppings to where
     offwhere = offwhere + neigh_whereaux
@@ -609,7 +607,7 @@ def _create_where_lists_from_added_sites(fsyst, intracell_sites, intercell_sites
         # for each central-lead-hopping (iq), we have to store
         # the relative positions in the flattened where of the
         # lead-lead-hoppings (ij) with the same lead site 'i'
-        for num_leadlead_hops in range(len(central_whereaux[i_idx])):
+        for num_leadscat_hops in range(len(central_whereaux[i_idx])):
             wherepos_neigh_stacked.append(wherepos_neigh_dummy)
 
 
@@ -790,8 +788,7 @@ cdef class offEnergyCurrent(kwant.operator._LocalOperator):
                 for neigh in range(num_ijneighs):
                     # get Hamiltonian H_ij as well as
                     # WF start index j_s and number of orbitals
-                    ij_pos = num_iqhops + \
-                             self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
+                    ij_pos = num_iqhops + self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
                     H_ij = H_ab_blocks.get(ij_pos)
                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]
                     j_norbs = H_ab_blocks.block_shapes[ij_pos, 1]

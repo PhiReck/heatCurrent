@@ -1009,7 +1009,7 @@ struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 struct __pyx_opt_args_20operatorsHeatCurrent__is_herm_conj;
 
-/* "operatorsHeatCurrent.pyx":682
+/* "operatorsHeatCurrent.pyx":681
  * 
  * # supported operations within the `_operate` method
  * ctypedef enum operation:             # <<<<<<<<<<<<<<
@@ -1022,7 +1022,7 @@ enum __pyx_t_20operatorsHeatCurrent_operation {
 };
 typedef enum __pyx_t_20operatorsHeatCurrent_operation __pyx_t_20operatorsHeatCurrent_operation;
 
-/* "operatorsHeatCurrent.pyx":1119
+/* "operatorsHeatCurrent.pyx":1118
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef int _is_herm_conj(complex[:, :] a, complex[:, :] b,             # <<<<<<<<<<<<<<
@@ -1074,7 +1074,7 @@ struct __pyx_obj_5kwant_8operator__LocalOperator {
 };
 
 
-/* "operatorsHeatCurrent.pyx":688
+/* "operatorsHeatCurrent.pyx":687
  * 
  * 
  * cdef class offEnergyCurrent(kwant.operator._LocalOperator):             # <<<<<<<<<<<<<<
@@ -1089,7 +1089,7 @@ struct __pyx_obj_20operatorsHeatCurrent_offEnergyCurrent {
 };
 
 
-/* "operatorsHeatCurrent.pyx":814
+/* "operatorsHeatCurrent.pyx":813
  * 
  * 
  * cdef class CurrentWithArbitHop(kwant.operator._LocalOperator):             # <<<<<<<<<<<<<<
@@ -1248,7 +1248,7 @@ struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_9_genexpr {
 };
 
 
-/* "operatorsHeatCurrent.pyx":632
+/* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
@@ -1263,7 +1263,7 @@ struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_ce
 };
 
 
-/* "operatorsHeatCurrent.pyx":649
+/* "operatorsHeatCurrent.pyx":648
  *     #check type of sites in the given lists and convert to int if needed
  *     if isinstance(initial_list[0], kwant.builder.Site):
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)             # <<<<<<<<<<<<<<
@@ -1277,7 +1277,7 @@ struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr {
 };
 
 
-/* "operatorsHeatCurrent.pyx":651
+/* "operatorsHeatCurrent.pyx":650
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)             # <<<<<<<<<<<<<<
@@ -1291,7 +1291,7 @@ struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr {
 };
 
 
-/* "operatorsHeatCurrent.pyx":876
+/* "operatorsHeatCurrent.pyx":875
  * 
  * 
  *     cdef kwant.operator.BlockSparseMatrix _eval_arbit_hop_func(self, args, params):             # <<<<<<<<<<<<<<
@@ -1416,7 +1416,7 @@ struct __pyx_vtabstruct_5kwant_8operator__LocalOperator {
 static struct __pyx_vtabstruct_5kwant_8operator__LocalOperator *__pyx_vtabptr_5kwant_8operator__LocalOperator;
 
 
-/* "operatorsHeatCurrent.pyx":688
+/* "operatorsHeatCurrent.pyx":687
  * 
  * 
  * cdef class offEnergyCurrent(kwant.operator._LocalOperator):             # <<<<<<<<<<<<<<
@@ -1430,7 +1430,7 @@ struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent {
 static struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent *__pyx_vtabptr_20operatorsHeatCurrent_offEnergyCurrent;
 
 
-/* "operatorsHeatCurrent.pyx":814
+/* "operatorsHeatCurrent.pyx":813
  * 
  * 
  * cdef class CurrentWithArbitHop(kwant.operator._LocalOperator):             # <<<<<<<<<<<<<<
@@ -2541,7 +2541,6 @@ static const char __pyx_k_mu[] = "mu";
 static const char __pyx_k_np[] = "np";
 static const char __pyx_k_op[] = "op";
 static const char __pyx_k_ta[] = "ta";
-static const char __pyx_k__59[] = "_";
 static const char __pyx_k_bra[] = "bra";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_hop[] = "hop";
@@ -2743,7 +2742,7 @@ static const char __pyx_k_auxwhere_list_j_2[] = "auxwhere_list_j";
 static const char __pyx_k_bound_hamiltonian[] = "_bound_hamiltonian";
 static const char __pyx_k_check_hermiticity[] = "check_hermiticity";
 static const char __pyx_k_heatCurrentWithIc[] = "heatCurrentWithIc";
-static const char __pyx_k_num_leadlead_hops[] = "num_leadlead_hops";
+static const char __pyx_k_num_leadscat_hops[] = "num_leadscat_hops";
 static const char __pyx_k_pyx_unpickle_Enum[] = "__pyx_unpickle_Enum";
 static const char __pyx_k_where_unfinalized[] = "where_unfinalized";
 static const char __pyx_k_LocalEnergyCurrent[] = "LocalEnergyCurrent";
@@ -2879,7 +2878,6 @@ static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_n_s_UserCodeError;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
-static PyObject *__pyx_n_s__59;
 static PyObject *__pyx_n_s_a;
 static PyObject *__pyx_n_s_a_norbs;
 static PyObject *__pyx_n_s_add_two_lead_unit_cells;
@@ -3016,7 +3014,7 @@ static PyObject *__pyx_n_s_new;
 static PyObject *__pyx_kp_s_no_default___reduce___due_to_non;
 static PyObject *__pyx_n_s_normalize_hopping_where;
 static PyObject *__pyx_n_s_np;
-static PyObject *__pyx_n_s_num_leadlead_hops;
+static PyObject *__pyx_n_s_num_leadscat_hops;
 static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_n_s_obj;
 static PyObject *__pyx_n_s_offEnergyCurrent;
@@ -3294,17 +3292,17 @@ static PyObject *__pyx_tuple__53;
 static PyObject *__pyx_tuple__54;
 static PyObject *__pyx_tuple__56;
 static PyObject *__pyx_tuple__57;
-static PyObject *__pyx_tuple__60;
-static PyObject *__pyx_tuple__62;
-static PyObject *__pyx_tuple__64;
-static PyObject *__pyx_tuple__66;
-static PyObject *__pyx_tuple__68;
+static PyObject *__pyx_tuple__59;
+static PyObject *__pyx_tuple__61;
+static PyObject *__pyx_tuple__63;
+static PyObject *__pyx_tuple__65;
+static PyObject *__pyx_tuple__67;
+static PyObject *__pyx_tuple__69;
 static PyObject *__pyx_tuple__70;
 static PyObject *__pyx_tuple__71;
 static PyObject *__pyx_tuple__72;
 static PyObject *__pyx_tuple__73;
 static PyObject *__pyx_tuple__74;
-static PyObject *__pyx_tuple__75;
 static PyObject *__pyx_codeobj__3;
 static PyObject *__pyx_codeobj__5;
 static PyObject *__pyx_codeobj__7;
@@ -3322,12 +3320,12 @@ static PyObject *__pyx_codeobj__49;
 static PyObject *__pyx_codeobj__52;
 static PyObject *__pyx_codeobj__55;
 static PyObject *__pyx_codeobj__58;
-static PyObject *__pyx_codeobj__61;
-static PyObject *__pyx_codeobj__63;
-static PyObject *__pyx_codeobj__65;
-static PyObject *__pyx_codeobj__67;
-static PyObject *__pyx_codeobj__69;
-static PyObject *__pyx_codeobj__76;
+static PyObject *__pyx_codeobj__60;
+static PyObject *__pyx_codeobj__62;
+static PyObject *__pyx_codeobj__64;
+static PyObject *__pyx_codeobj__66;
+static PyObject *__pyx_codeobj__68;
+static PyObject *__pyx_codeobj__75;
 /* Late includes */
 
 /* "operatorsHeatCurrent.pyx":34
@@ -9755,13 +9753,12 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   PyObject *__pyx_v_wherepos_neigh_dummy = NULL;
   PyObject *__pyx_v_neigh_count = NULL;
   PyObject *__pyx_v_offwhere = NULL;
-  PyObject *__pyx_v_i_idx = NULL;
+  CYTHON_UNUSED PyObject *__pyx_v_i_idx = NULL;
   PyObject *__pyx_v_hop = NULL;
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_v_j = NULL;
   PyObject *__pyx_v_iedge = NULL;
   PyObject *__pyx_v_neighbor = NULL;
-  CYTHON_UNUSED Py_ssize_t __pyx_v__;
   PyObject *__pyx_v_auxwhere_list = NULL;
   PyObject *__pyx_v_wherepos_neigh_flat = NULL;
   PyObject *__pyx_v_auxpos_list = NULL;
@@ -9780,9 +9777,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   PyObject *(*__pyx_t_11)(PyObject *);
   PyObject *__pyx_t_12 = NULL;
   int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
-  PyObject *(*__pyx_t_16)(PyObject *);
+  PyObject *(*__pyx_t_14)(PyObject *);
   __Pyx_RefNannySetupContext("_create_fullwhere_lists_for_local_ECurr", 0);
 
   /* "operatorsHeatCurrent.pyx":503
@@ -10216,27 +10211,11 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
     /* "operatorsHeatCurrent.pyx":533
  *         # the relative positions of the connected hoppings (ik)
  *         # in the extended flattened offwhere
- *         for _ in range(len(neigh_whereaux[i_idx])):             # <<<<<<<<<<<<<<
- *             wherepos_neigh_stacked.append(wherepos_neigh_dummy)
- * 
- */
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_neigh_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_10 = PyObject_Length(__pyx_t_5); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 533, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_14 = __pyx_t_10;
-    for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
-      __pyx_v__ = __pyx_t_15;
-
-      /* "operatorsHeatCurrent.pyx":534
- *         # in the extended flattened offwhere
- *         for _ in range(len(neigh_whereaux[i_idx])):
- *             wherepos_neigh_stacked.append(wherepos_neigh_dummy)             # <<<<<<<<<<<<<<
+ *         wherepos_neigh_stacked.append(wherepos_neigh_dummy)             # <<<<<<<<<<<<<<
  * 
  *     # append new hoppings to where
  */
-      __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_stacked, __pyx_v_wherepos_neigh_dummy); if (unlikely(__pyx_t_13 == ((int)-1))) __PYX_ERR(0, 534, __pyx_L1_error)
-    }
+    __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_stacked, __pyx_v_wherepos_neigh_dummy); if (unlikely(__pyx_t_13 == ((int)-1))) __PYX_ERR(0, 533, __pyx_L1_error)
 
     /* "operatorsHeatCurrent.pyx":513
  * 
@@ -10249,32 +10228,32 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":537
+  /* "operatorsHeatCurrent.pyx":536
  * 
  *     # append new hoppings to where
  *     offwhere = offwhere + neigh_whereaux             # <<<<<<<<<<<<<<
  *     # auxiliary list which tells us where added hoppings start in offwhere
  *     auxwhere_list = [0, len(in_where), len(offwhere)]
  */
-  __pyx_t_1 = PyNumber_Add(__pyx_v_offwhere, __pyx_v_neigh_whereaux); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 537, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_v_offwhere, __pyx_v_neigh_whereaux); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 536, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF_SET(__pyx_v_offwhere, ((PyObject*)__pyx_t_1));
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":539
+  /* "operatorsHeatCurrent.pyx":538
  *     offwhere = offwhere + neigh_whereaux
  *     # auxiliary list which tells us where added hoppings start in offwhere
  *     auxwhere_list = [0, len(in_where), len(offwhere)]             # <<<<<<<<<<<<<<
  * 
  *     # get flattened wherepos_neigh + auxiliary lists for bookkeeping
  */
-  __pyx_t_3 = PyObject_Length(__pyx_v_in_where); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(0, 539, __pyx_L1_error)
-  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __pyx_t_3 = PyObject_Length(__pyx_v_in_where); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(0, 538, __pyx_L1_error)
+  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyList_GET_SIZE(__pyx_v_offwhere); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(0, 539, __pyx_L1_error)
-  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __pyx_t_3 = PyList_GET_SIZE(__pyx_v_offwhere); if (unlikely(__pyx_t_3 == ((Py_ssize_t)-1))) __PYX_ERR(0, 538, __pyx_L1_error)
+  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyList_New(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __pyx_t_5 = PyList_New(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_INCREF(__pyx_int_0);
   __Pyx_GIVEREF(__pyx_int_0);
@@ -10288,14 +10267,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   __pyx_v_auxwhere_list = ((PyObject*)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "operatorsHeatCurrent.pyx":542
+  /* "operatorsHeatCurrent.pyx":541
  * 
  *     # get flattened wherepos_neigh + auxiliary lists for bookkeeping
  *     wherepos_neigh_flat, auxpos_list = flatten_2d_lists_with_bookkeeping(wherepos_neigh_stacked)             # <<<<<<<<<<<<<<
  * 
  *     return offwhere, auxwhere_list, wherepos_neigh_flat, auxpos_list
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_flatten_2d_lists_with_bookkeepin); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 542, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_flatten_2d_lists_with_bookkeepin); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
@@ -10309,7 +10288,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   }
   __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_v_wherepos_neigh_stacked) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_wherepos_neigh_stacked);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 542, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if ((likely(PyTuple_CheckExact(__pyx_t_5))) || (PyList_CheckExact(__pyx_t_5))) {
@@ -10318,7 +10297,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
     if (unlikely(size != 2)) {
       if (size > 2) __Pyx_RaiseTooManyValuesError(2);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 542, __pyx_L1_error)
+      __PYX_ERR(0, 541, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -10331,39 +10310,39 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_1);
     #else
-    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 542, __pyx_L1_error)
+    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 541, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 542, __pyx_L1_error)
+    __pyx_t_1 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 541, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     #endif
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_7 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 542, __pyx_L1_error)
+    __pyx_t_7 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 541, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_16 = Py_TYPE(__pyx_t_7)->tp_iternext;
-    index = 0; __pyx_t_2 = __pyx_t_16(__pyx_t_7); if (unlikely(!__pyx_t_2)) goto __pyx_L15_unpacking_failed;
+    __pyx_t_14 = Py_TYPE(__pyx_t_7)->tp_iternext;
+    index = 0; __pyx_t_2 = __pyx_t_14(__pyx_t_7); if (unlikely(!__pyx_t_2)) goto __pyx_L13_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_2);
-    index = 1; __pyx_t_1 = __pyx_t_16(__pyx_t_7); if (unlikely(!__pyx_t_1)) goto __pyx_L15_unpacking_failed;
+    index = 1; __pyx_t_1 = __pyx_t_14(__pyx_t_7); if (unlikely(!__pyx_t_1)) goto __pyx_L13_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_16(__pyx_t_7), 2) < 0) __PYX_ERR(0, 542, __pyx_L1_error)
-    __pyx_t_16 = NULL;
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_14(__pyx_t_7), 2) < 0) __PYX_ERR(0, 541, __pyx_L1_error)
+    __pyx_t_14 = NULL;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    goto __pyx_L16_unpacking_done;
-    __pyx_L15_unpacking_failed:;
+    goto __pyx_L14_unpacking_done;
+    __pyx_L13_unpacking_failed:;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_16 = NULL;
+    __pyx_t_14 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 542, __pyx_L1_error)
-    __pyx_L16_unpacking_done:;
+    __PYX_ERR(0, 541, __pyx_L1_error)
+    __pyx_L14_unpacking_done:;
   }
   __pyx_v_wherepos_neigh_flat = __pyx_t_2;
   __pyx_t_2 = 0;
   __pyx_v_auxpos_list = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":544
+  /* "operatorsHeatCurrent.pyx":543
  *     wherepos_neigh_flat, auxpos_list = flatten_2d_lists_with_bookkeeping(wherepos_neigh_stacked)
  * 
  *     return offwhere, auxwhere_list, wherepos_neigh_flat, auxpos_list             # <<<<<<<<<<<<<<
@@ -10371,7 +10350,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 544, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 543, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_INCREF(__pyx_v_offwhere);
   __Pyx_GIVEREF(__pyx_v_offwhere);
@@ -10427,7 +10406,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_6_create_fullwhere_lists_for_lo
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":547
+/* "operatorsHeatCurrent.pyx":546
  * 
  * 
  * def _create_where_lists_from_added_sites(fsyst, intracell_sites, intercell_sites):             # <<<<<<<<<<<<<<
@@ -10471,17 +10450,17 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_9_create_where_lists_from_added
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_intracell_sites)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, 1); __PYX_ERR(0, 547, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, 1); __PYX_ERR(0, 546, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_intercell_sites)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, 2); __PYX_ERR(0, 547, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, 2); __PYX_ERR(0, 546, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_where_lists_from_added_sites") < 0)) __PYX_ERR(0, 547, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_where_lists_from_added_sites") < 0)) __PYX_ERR(0, 546, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 3) {
       goto __pyx_L5_argtuple_error;
@@ -10496,7 +10475,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_9_create_where_lists_from_added
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 547, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_create_where_lists_from_added_sites", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 546, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent._create_where_lists_from_added_sites", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -10521,7 +10500,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_v_iedge = NULL;
   PyObject *__pyx_v_neighbor = NULL;
-  CYTHON_UNUSED Py_ssize_t __pyx_v_num_leadlead_hops;
+  CYTHON_UNUSED Py_ssize_t __pyx_v_num_leadscat_hops;
   PyObject *__pyx_v_auxwhere_list = NULL;
   PyObject *__pyx_v_wherepos_neigh_flat = NULL;
   PyObject *__pyx_v_auxpos_list = NULL;
@@ -10551,79 +10530,79 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   PyObject *(*__pyx_t_19)(PyObject *);
   __Pyx_RefNannySetupContext("_create_where_lists_from_added_sites", 0);
 
-  /* "operatorsHeatCurrent.pyx":579
+  /* "operatorsHeatCurrent.pyx":578
  *     """
  * 
  *     where = []             # <<<<<<<<<<<<<<
  *     lead_scatreg_where = []
  * 
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 578, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_where = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":580
+  /* "operatorsHeatCurrent.pyx":579
  * 
  *     where = []
  *     lead_scatreg_where = []             # <<<<<<<<<<<<<<
  * 
  *     #auxlists to store hoppings
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 579, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_lead_scatreg_where = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":583
+  /* "operatorsHeatCurrent.pyx":582
  * 
  *     #auxlists to store hoppings
  *     central_whereaux = []             # <<<<<<<<<<<<<<
  *     lead_whereaux = []
  * 
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 583, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 582, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_central_whereaux = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":584
+  /* "operatorsHeatCurrent.pyx":583
  *     #auxlists to store hoppings
  *     central_whereaux = []
  *     lead_whereaux = []             # <<<<<<<<<<<<<<
  * 
  *     wherepos_neigh_stacked = []
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 584, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_lead_whereaux = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":586
+  /* "operatorsHeatCurrent.pyx":585
  *     lead_whereaux = []
  * 
  *     wherepos_neigh_stacked = []             # <<<<<<<<<<<<<<
  *     wherepos_neigh_dummy = []
  *     leadhop_count = 0
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 586, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 585, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_wherepos_neigh_stacked = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":587
+  /* "operatorsHeatCurrent.pyx":586
  * 
  *     wherepos_neigh_stacked = []
  *     wherepos_neigh_dummy = []             # <<<<<<<<<<<<<<
  *     leadhop_count = 0
  * 
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 587, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_wherepos_neigh_dummy = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":588
+  /* "operatorsHeatCurrent.pyx":587
  *     wherepos_neigh_stacked = []
  *     wherepos_neigh_dummy = []
  *     leadhop_count = 0             # <<<<<<<<<<<<<<
@@ -10633,7 +10612,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_leadhop_count = __pyx_int_0;
 
-  /* "operatorsHeatCurrent.pyx":592
+  /* "operatorsHeatCurrent.pyx":591
  *     # fill neighborlists; contains on purpose empty lists, if there is
  *     # no matching neighbor in the corresp. region
  *     for i_idx, i in enumerate(set(intracell_sites)):             # <<<<<<<<<<<<<<
@@ -10643,9 +10622,9 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __Pyx_INCREF(__pyx_int_0);
   __pyx_t_1 = __pyx_int_0;
   __pyx_t_3 = 0;
-  __pyx_t_6 = PySet_New(__pyx_v_intracell_sites); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 592, __pyx_L1_error)
+  __pyx_t_6 = PySet_New(__pyx_v_intracell_sites); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 591, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_set_iterator(__pyx_t_6, 1, (&__pyx_t_4), (&__pyx_t_5)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 592, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_set_iterator(__pyx_t_6, 1, (&__pyx_t_4), (&__pyx_t_5)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 591, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_XDECREF(__pyx_t_2);
@@ -10654,19 +10633,19 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   while (1) {
     __pyx_t_8 = __Pyx_set_iter_next(__pyx_t_2, __pyx_t_4, &__pyx_t_3, &__pyx_t_7, __pyx_t_5);
     if (unlikely(__pyx_t_8 == 0)) break;
-    if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 592, __pyx_L1_error)
+    if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 591, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_7);
     __pyx_t_7 = 0;
     __Pyx_INCREF(__pyx_t_1);
     __Pyx_XDECREF_SET(__pyx_v_i_idx, __pyx_t_1);
-    __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 592, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 591, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1);
     __pyx_t_1 = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "operatorsHeatCurrent.pyx":593
+    /* "operatorsHeatCurrent.pyx":592
  *     # no matching neighbor in the corresp. region
  *     for i_idx, i in enumerate(set(intracell_sites)):
  *         assert(type(i) == int)             # <<<<<<<<<<<<<<
@@ -10675,62 +10654,62 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
  */
     #ifndef CYTHON_WITHOUT_ASSERTIONS
     if (unlikely(!Py_OptimizeFlag)) {
-      __pyx_t_7 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_i)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 593, __pyx_L1_error)
-      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 593, __pyx_L1_error)
+      __pyx_t_7 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_i)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 592, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 592, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       if (unlikely(!__pyx_t_9)) {
         PyErr_SetNone(PyExc_AssertionError);
-        __PYX_ERR(0, 593, __pyx_L1_error)
+        __PYX_ERR(0, 592, __pyx_L1_error)
       }
     }
     #endif
 
-    /* "operatorsHeatCurrent.pyx":594
+    /* "operatorsHeatCurrent.pyx":593
  *     for i_idx, i in enumerate(set(intracell_sites)):
  *         assert(type(i) == int)
  *         central_whereaux.append([])             # <<<<<<<<<<<<<<
  *         lead_whereaux.append([])
  *         wherepos_neigh_dummy = []
  */
-    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 594, __pyx_L1_error)
+    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 593, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_central_whereaux, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 594, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_central_whereaux, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 593, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "operatorsHeatCurrent.pyx":595
+    /* "operatorsHeatCurrent.pyx":594
  *         assert(type(i) == int)
  *         central_whereaux.append([])
  *         lead_whereaux.append([])             # <<<<<<<<<<<<<<
  *         wherepos_neigh_dummy = []
  *         for iedge in fsyst.graph.out_edge_ids(i):
  */
-    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 595, __pyx_L1_error)
+    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 594, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_lead_whereaux, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 595, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_lead_whereaux, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 594, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "operatorsHeatCurrent.pyx":596
+    /* "operatorsHeatCurrent.pyx":595
  *         central_whereaux.append([])
  *         lead_whereaux.append([])
  *         wherepos_neigh_dummy = []             # <<<<<<<<<<<<<<
  *         for iedge in fsyst.graph.out_edge_ids(i):
  *             neighbor = fsyst.graph.head(iedge)
  */
-    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 596, __pyx_L1_error)
+    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 595, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF_SET(__pyx_v_wherepos_neigh_dummy, ((PyObject*)__pyx_t_7));
     __pyx_t_7 = 0;
 
-    /* "operatorsHeatCurrent.pyx":597
+    /* "operatorsHeatCurrent.pyx":596
  *         lead_whereaux.append([])
  *         wherepos_neigh_dummy = []
  *         for iedge in fsyst.graph.out_edge_ids(i):             # <<<<<<<<<<<<<<
  *             neighbor = fsyst.graph.head(iedge)
  *             #neighbor in lead
  */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 597, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 596, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_out_edge_ids); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 597, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_out_edge_ids); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 596, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = NULL;
@@ -10745,16 +10724,16 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     }
     __pyx_t_7 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_11, __pyx_t_6, __pyx_v_i) : __Pyx_PyObject_CallOneArg(__pyx_t_11, __pyx_v_i);
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 597, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 596, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
       __pyx_t_11 = __pyx_t_7; __Pyx_INCREF(__pyx_t_11); __pyx_t_12 = 0;
       __pyx_t_13 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 597, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 596, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_13 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 597, __pyx_L1_error)
+      __pyx_t_13 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 596, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     for (;;) {
@@ -10762,17 +10741,17 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         if (likely(PyList_CheckExact(__pyx_t_11))) {
           if (__pyx_t_12 >= PyList_GET_SIZE(__pyx_t_11)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 597, __pyx_L1_error)
+          __pyx_t_7 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 596, __pyx_L1_error)
           #else
-          __pyx_t_7 = PySequence_ITEM(__pyx_t_11, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 597, __pyx_L1_error)
+          __pyx_t_7 = PySequence_ITEM(__pyx_t_11, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 596, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         } else {
           if (__pyx_t_12 >= PyTuple_GET_SIZE(__pyx_t_11)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 597, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 596, __pyx_L1_error)
           #else
-          __pyx_t_7 = PySequence_ITEM(__pyx_t_11, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 597, __pyx_L1_error)
+          __pyx_t_7 = PySequence_ITEM(__pyx_t_11, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 596, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           #endif
         }
@@ -10782,7 +10761,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 597, __pyx_L1_error)
+            else __PYX_ERR(0, 596, __pyx_L1_error)
           }
           break;
         }
@@ -10791,16 +10770,16 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
       __Pyx_XDECREF_SET(__pyx_v_iedge, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "operatorsHeatCurrent.pyx":598
+      /* "operatorsHeatCurrent.pyx":597
  *         wherepos_neigh_dummy = []
  *         for iedge in fsyst.graph.out_edge_ids(i):
  *             neighbor = fsyst.graph.head(iedge)             # <<<<<<<<<<<<<<
  *             #neighbor in lead
  *             if neighbor in set(intercell_sites+intracell_sites):
  */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 598, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 597, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_head); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 598, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_head); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 597, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_6 = NULL;
@@ -10815,39 +10794,39 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
       }
       __pyx_t_7 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_6, __pyx_v_iedge) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_v_iedge);
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 598, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 597, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_XDECREF_SET(__pyx_v_neighbor, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "operatorsHeatCurrent.pyx":600
+      /* "operatorsHeatCurrent.pyx":599
  *             neighbor = fsyst.graph.head(iedge)
  *             #neighbor in lead
  *             if neighbor in set(intercell_sites+intracell_sites):             # <<<<<<<<<<<<<<
  *                 lead_whereaux[i_idx].append((i,neighbor))
  *                 wherepos_neigh_dummy.append(leadhop_count)
  */
-      __pyx_t_7 = PyNumber_Add(__pyx_v_intercell_sites, __pyx_v_intracell_sites); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 600, __pyx_L1_error)
+      __pyx_t_7 = PyNumber_Add(__pyx_v_intercell_sites, __pyx_v_intracell_sites); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 599, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_14 = PySet_New(__pyx_t_7); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 600, __pyx_L1_error)
+      __pyx_t_14 = PySet_New(__pyx_t_7); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 599, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_9 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_14, Py_EQ)); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 600, __pyx_L1_error)
+      __pyx_t_9 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_14, Py_EQ)); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 599, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __pyx_t_15 = (__pyx_t_9 != 0);
       if (__pyx_t_15) {
 
-        /* "operatorsHeatCurrent.pyx":601
+        /* "operatorsHeatCurrent.pyx":600
  *             #neighbor in lead
  *             if neighbor in set(intercell_sites+intracell_sites):
  *                 lead_whereaux[i_idx].append((i,neighbor))             # <<<<<<<<<<<<<<
  *                 wherepos_neigh_dummy.append(leadhop_count)
  *                 leadhop_count += 1
  */
-        __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_lead_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 601, __pyx_L1_error)
+        __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_lead_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 600, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 601, __pyx_L1_error)
+        __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 600, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_INCREF(__pyx_v_i);
         __Pyx_GIVEREF(__pyx_v_i);
@@ -10855,32 +10834,32 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         __Pyx_INCREF(__pyx_v_neighbor);
         __Pyx_GIVEREF(__pyx_v_neighbor);
         PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_v_neighbor);
-        __pyx_t_10 = __Pyx_PyObject_Append(__pyx_t_14, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 601, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyObject_Append(__pyx_t_14, __pyx_t_7); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 600, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "operatorsHeatCurrent.pyx":602
+        /* "operatorsHeatCurrent.pyx":601
  *             if neighbor in set(intercell_sites+intracell_sites):
  *                 lead_whereaux[i_idx].append((i,neighbor))
  *                 wherepos_neigh_dummy.append(leadhop_count)             # <<<<<<<<<<<<<<
  *                 leadhop_count += 1
  *             #neighbor in scattering region
  */
-        __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_dummy, __pyx_v_leadhop_count); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 602, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_dummy, __pyx_v_leadhop_count); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 601, __pyx_L1_error)
 
-        /* "operatorsHeatCurrent.pyx":603
+        /* "operatorsHeatCurrent.pyx":602
  *                 lead_whereaux[i_idx].append((i,neighbor))
  *                 wherepos_neigh_dummy.append(leadhop_count)
  *                 leadhop_count += 1             # <<<<<<<<<<<<<<
  *             #neighbor in scattering region
  *             else:
  */
-        __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_v_leadhop_count, __pyx_int_1, 1, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 603, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_v_leadhop_count, __pyx_int_1, 1, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 602, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF_SET(__pyx_v_leadhop_count, __pyx_t_7);
         __pyx_t_7 = 0;
 
-        /* "operatorsHeatCurrent.pyx":600
+        /* "operatorsHeatCurrent.pyx":599
  *             neighbor = fsyst.graph.head(iedge)
  *             #neighbor in lead
  *             if neighbor in set(intercell_sites+intracell_sites):             # <<<<<<<<<<<<<<
@@ -10890,7 +10869,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         goto __pyx_L7;
       }
 
-      /* "operatorsHeatCurrent.pyx":606
+      /* "operatorsHeatCurrent.pyx":605
  *             #neighbor in scattering region
  *             else:
  *                 central_whereaux[i_idx].append((i,neighbor))             # <<<<<<<<<<<<<<
@@ -10898,9 +10877,9 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
  *         # for each central-lead-hopping (iq), we have to store
  */
       /*else*/ {
-        __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_central_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 606, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_central_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 605, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 606, __pyx_L1_error)
+        __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 605, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_INCREF(__pyx_v_i);
         __Pyx_GIVEREF(__pyx_v_i);
@@ -10908,13 +10887,13 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         __Pyx_INCREF(__pyx_v_neighbor);
         __Pyx_GIVEREF(__pyx_v_neighbor);
         PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_v_neighbor);
-        __pyx_t_10 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_t_14); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 606, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyObject_Append(__pyx_t_7, __pyx_t_14); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 605, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       }
       __pyx_L7:;
 
-      /* "operatorsHeatCurrent.pyx":597
+      /* "operatorsHeatCurrent.pyx":596
  *         lead_whereaux.append([])
  *         wherepos_neigh_dummy = []
  *         for iedge in fsyst.graph.out_edge_ids(i):             # <<<<<<<<<<<<<<
@@ -10924,68 +10903,68 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     }
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-    /* "operatorsHeatCurrent.pyx":611
+    /* "operatorsHeatCurrent.pyx":610
  *         # the relative positions in the flattened where of the
  *         # lead-lead-hoppings (ij) with the same lead site 'i'
- *         for num_leadlead_hops in range(len(central_whereaux[i_idx])):             # <<<<<<<<<<<<<<
+ *         for num_leadscat_hops in range(len(central_whereaux[i_idx])):             # <<<<<<<<<<<<<<
  *             wherepos_neigh_stacked.append(wherepos_neigh_dummy)
  * 
  */
-    __pyx_t_11 = __Pyx_PyObject_GetItem(__pyx_v_central_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetItem(__pyx_v_central_whereaux, __pyx_v_i_idx); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 610, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_12 = PyObject_Length(__pyx_t_11); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 611, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_11); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 610, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __pyx_t_16 = __pyx_t_12;
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
-      __pyx_v_num_leadlead_hops = __pyx_t_17;
+      __pyx_v_num_leadscat_hops = __pyx_t_17;
 
-      /* "operatorsHeatCurrent.pyx":612
+      /* "operatorsHeatCurrent.pyx":611
  *         # lead-lead-hoppings (ij) with the same lead site 'i'
- *         for num_leadlead_hops in range(len(central_whereaux[i_idx])):
+ *         for num_leadscat_hops in range(len(central_whereaux[i_idx])):
  *             wherepos_neigh_stacked.append(wherepos_neigh_dummy)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_stacked, __pyx_v_wherepos_neigh_dummy); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 612, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_wherepos_neigh_stacked, __pyx_v_wherepos_neigh_dummy); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 611, __pyx_L1_error)
     }
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":617
+  /* "operatorsHeatCurrent.pyx":616
  *     # get flattened wheres, i.e. list of only tuples=hoppings, without the stacked structure
  *         # all hoppings
  *     where.append(central_whereaux)             # <<<<<<<<<<<<<<
  *     where.append(lead_whereaux)
  *     where = [tupel for qij in where for iSiteHoppings in qij for tupel in iSiteHoppings]
  */
-  __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_where, __pyx_v_central_whereaux); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 617, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_where, __pyx_v_central_whereaux); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 616, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":618
+  /* "operatorsHeatCurrent.pyx":617
  *         # all hoppings
  *     where.append(central_whereaux)
  *     where.append(lead_whereaux)             # <<<<<<<<<<<<<<
  *     where = [tupel for qij in where for iSiteHoppings in qij for tupel in iSiteHoppings]
  *         # auxiliary list which tells us where added hoppings start in flattened where
  */
-  __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_where, __pyx_v_lead_whereaux); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 618, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyList_Append(__pyx_v_where, __pyx_v_lead_whereaux); if (unlikely(__pyx_t_10 == ((int)-1))) __PYX_ERR(0, 617, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":619
+  /* "operatorsHeatCurrent.pyx":618
  *     where.append(central_whereaux)
  *     where.append(lead_whereaux)
  *     where = [tupel for qij in where for iSiteHoppings in qij for tupel in iSiteHoppings]             # <<<<<<<<<<<<<<
  *         # auxiliary list which tells us where added hoppings start in flattened where
  *     auxwhere_list = [0, len(central_whereaux), len(where)]
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 619, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 618, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __pyx_v_where; __Pyx_INCREF(__pyx_t_2); __pyx_t_4 = 0;
   for (;;) {
     if (__pyx_t_4 >= PyList_GET_SIZE(__pyx_t_2)) break;
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_11 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_11); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 619, __pyx_L1_error)
+    __pyx_t_11 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_11); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 618, __pyx_L1_error)
     #else
-    __pyx_t_11 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 619, __pyx_L1_error)
+    __pyx_t_11 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 618, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     #endif
     __Pyx_XDECREF_SET(__pyx_v_qij, __pyx_t_11);
@@ -10994,26 +10973,26 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
       __pyx_t_11 = __pyx_v_qij; __Pyx_INCREF(__pyx_t_11); __pyx_t_3 = 0;
       __pyx_t_13 = NULL;
     } else {
-      __pyx_t_3 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_v_qij); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 619, __pyx_L1_error)
+      __pyx_t_3 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_v_qij); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 618, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_13 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 619, __pyx_L1_error)
+      __pyx_t_13 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 618, __pyx_L1_error)
     }
     for (;;) {
       if (likely(!__pyx_t_13)) {
         if (likely(PyList_CheckExact(__pyx_t_11))) {
           if (__pyx_t_3 >= PyList_GET_SIZE(__pyx_t_11)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_14 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 619, __pyx_L1_error)
+          __pyx_t_14 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 618, __pyx_L1_error)
           #else
-          __pyx_t_14 = PySequence_ITEM(__pyx_t_11, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 619, __pyx_L1_error)
+          __pyx_t_14 = PySequence_ITEM(__pyx_t_11, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 618, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
           #endif
         } else {
           if (__pyx_t_3 >= PyTuple_GET_SIZE(__pyx_t_11)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_14 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 619, __pyx_L1_error)
+          __pyx_t_14 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 618, __pyx_L1_error)
           #else
-          __pyx_t_14 = PySequence_ITEM(__pyx_t_11, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 619, __pyx_L1_error)
+          __pyx_t_14 = PySequence_ITEM(__pyx_t_11, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 618, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
           #endif
         }
@@ -11023,7 +11002,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 619, __pyx_L1_error)
+            else __PYX_ERR(0, 618, __pyx_L1_error)
           }
           break;
         }
@@ -11035,26 +11014,26 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         __pyx_t_14 = __pyx_v_iSiteHoppings; __Pyx_INCREF(__pyx_t_14); __pyx_t_12 = 0;
         __pyx_t_18 = NULL;
       } else {
-        __pyx_t_12 = -1; __pyx_t_14 = PyObject_GetIter(__pyx_v_iSiteHoppings); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 619, __pyx_L1_error)
+        __pyx_t_12 = -1; __pyx_t_14 = PyObject_GetIter(__pyx_v_iSiteHoppings); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 618, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_18 = Py_TYPE(__pyx_t_14)->tp_iternext; if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 619, __pyx_L1_error)
+        __pyx_t_18 = Py_TYPE(__pyx_t_14)->tp_iternext; if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 618, __pyx_L1_error)
       }
       for (;;) {
         if (likely(!__pyx_t_18)) {
           if (likely(PyList_CheckExact(__pyx_t_14))) {
             if (__pyx_t_12 >= PyList_GET_SIZE(__pyx_t_14)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_7 = PyList_GET_ITEM(__pyx_t_14, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 619, __pyx_L1_error)
+            __pyx_t_7 = PyList_GET_ITEM(__pyx_t_14, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 618, __pyx_L1_error)
             #else
-            __pyx_t_7 = PySequence_ITEM(__pyx_t_14, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 619, __pyx_L1_error)
+            __pyx_t_7 = PySequence_ITEM(__pyx_t_14, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 618, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_7);
             #endif
           } else {
             if (__pyx_t_12 >= PyTuple_GET_SIZE(__pyx_t_14)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_14, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 619, __pyx_L1_error)
+            __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_14, __pyx_t_12); __Pyx_INCREF(__pyx_t_7); __pyx_t_12++; if (unlikely(0 < 0)) __PYX_ERR(0, 618, __pyx_L1_error)
             #else
-            __pyx_t_7 = PySequence_ITEM(__pyx_t_14, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 619, __pyx_L1_error)
+            __pyx_t_7 = PySequence_ITEM(__pyx_t_14, __pyx_t_12); __pyx_t_12++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 618, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_7);
             #endif
           }
@@ -11064,7 +11043,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(0, 619, __pyx_L1_error)
+              else __PYX_ERR(0, 618, __pyx_L1_error)
             }
             break;
           }
@@ -11072,7 +11051,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
         }
         __Pyx_XDECREF_SET(__pyx_v_tupel, __pyx_t_7);
         __pyx_t_7 = 0;
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_v_tupel))) __PYX_ERR(0, 619, __pyx_L1_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_v_tupel))) __PYX_ERR(0, 618, __pyx_L1_error)
       }
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
@@ -11082,20 +11061,20 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __Pyx_DECREF_SET(__pyx_v_where, ((PyObject*)__pyx_t_1));
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":621
+  /* "operatorsHeatCurrent.pyx":620
  *     where = [tupel for qij in where for iSiteHoppings in qij for tupel in iSiteHoppings]
  *         # auxiliary list which tells us where added hoppings start in flattened where
  *     auxwhere_list = [0, len(central_whereaux), len(where)]             # <<<<<<<<<<<<<<
  *         # hoppings from scat-region to lead
  *     lead_scatreg_where = [tupel for iSiteHoppings in central_whereaux for tupel in iSiteHoppings]
  */
-  __pyx_t_4 = PyList_GET_SIZE(__pyx_v_central_whereaux); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 621, __pyx_L1_error)
-  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 621, __pyx_L1_error)
+  __pyx_t_4 = PyList_GET_SIZE(__pyx_v_central_whereaux); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 620, __pyx_L1_error)
+  __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = PyList_GET_SIZE(__pyx_v_where); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 621, __pyx_L1_error)
-  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 621, __pyx_L1_error)
+  __pyx_t_4 = PyList_GET_SIZE(__pyx_v_where); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(0, 620, __pyx_L1_error)
+  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_11 = PyList_New(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 621, __pyx_L1_error)
+  __pyx_t_11 = PyList_New(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_INCREF(__pyx_int_0);
   __Pyx_GIVEREF(__pyx_int_0);
@@ -11109,22 +11088,22 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __pyx_v_auxwhere_list = ((PyObject*)__pyx_t_11);
   __pyx_t_11 = 0;
 
-  /* "operatorsHeatCurrent.pyx":623
+  /* "operatorsHeatCurrent.pyx":622
  *     auxwhere_list = [0, len(central_whereaux), len(where)]
  *         # hoppings from scat-region to lead
  *     lead_scatreg_where = [tupel for iSiteHoppings in central_whereaux for tupel in iSiteHoppings]             # <<<<<<<<<<<<<<
  * 
  *         # get flattened wherepos_neigh + auxiliary lists for bookkeeping
  */
-  __pyx_t_11 = PyList_New(0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_11 = PyList_New(0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 622, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __pyx_t_2 = __pyx_v_central_whereaux; __Pyx_INCREF(__pyx_t_2); __pyx_t_4 = 0;
   for (;;) {
     if (__pyx_t_4 >= PyList_GET_SIZE(__pyx_t_2)) break;
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 623, __pyx_L1_error)
+    __pyx_t_1 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_1); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(0, 622, __pyx_L1_error)
     #else
-    __pyx_t_1 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 623, __pyx_L1_error)
+    __pyx_t_1 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 622, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     #endif
     __Pyx_XDECREF_SET(__pyx_v_iSiteHoppings, __pyx_t_1);
@@ -11133,26 +11112,26 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
       __pyx_t_1 = __pyx_v_iSiteHoppings; __Pyx_INCREF(__pyx_t_1); __pyx_t_3 = 0;
       __pyx_t_13 = NULL;
     } else {
-      __pyx_t_3 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_iSiteHoppings); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 623, __pyx_L1_error)
+      __pyx_t_3 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_iSiteHoppings); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 622, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_13 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 623, __pyx_L1_error)
+      __pyx_t_13 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 622, __pyx_L1_error)
     }
     for (;;) {
       if (likely(!__pyx_t_13)) {
         if (likely(PyList_CheckExact(__pyx_t_1))) {
           if (__pyx_t_3 >= PyList_GET_SIZE(__pyx_t_1)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_14 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 623, __pyx_L1_error)
+          __pyx_t_14 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 622, __pyx_L1_error)
           #else
-          __pyx_t_14 = PySequence_ITEM(__pyx_t_1, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 623, __pyx_L1_error)
+          __pyx_t_14 = PySequence_ITEM(__pyx_t_1, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 622, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
           #endif
         } else {
           if (__pyx_t_3 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_14 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 623, __pyx_L1_error)
+          __pyx_t_14 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_3); __Pyx_INCREF(__pyx_t_14); __pyx_t_3++; if (unlikely(0 < 0)) __PYX_ERR(0, 622, __pyx_L1_error)
           #else
-          __pyx_t_14 = PySequence_ITEM(__pyx_t_1, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 623, __pyx_L1_error)
+          __pyx_t_14 = PySequence_ITEM(__pyx_t_1, __pyx_t_3); __pyx_t_3++; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 622, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
           #endif
         }
@@ -11162,7 +11141,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 623, __pyx_L1_error)
+            else __PYX_ERR(0, 622, __pyx_L1_error)
           }
           break;
         }
@@ -11170,7 +11149,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
       }
       __Pyx_XDECREF_SET(__pyx_v_tupel, __pyx_t_14);
       __pyx_t_14 = 0;
-      if (unlikely(__Pyx_ListComp_Append(__pyx_t_11, (PyObject*)__pyx_v_tupel))) __PYX_ERR(0, 623, __pyx_L1_error)
+      if (unlikely(__Pyx_ListComp_Append(__pyx_t_11, (PyObject*)__pyx_v_tupel))) __PYX_ERR(0, 622, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
@@ -11178,14 +11157,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __Pyx_DECREF_SET(__pyx_v_lead_scatreg_where, ((PyObject*)__pyx_t_11));
   __pyx_t_11 = 0;
 
-  /* "operatorsHeatCurrent.pyx":626
+  /* "operatorsHeatCurrent.pyx":625
  * 
  *         # get flattened wherepos_neigh + auxiliary lists for bookkeeping
  *     wherepos_neigh_flat, auxpos_list = flatten_2d_lists_with_bookkeeping(wherepos_neigh_stacked)             # <<<<<<<<<<<<<<
  * 
  *     return lead_scatreg_where, where, auxwhere_list, wherepos_neigh_flat, auxpos_list
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_flatten_2d_lists_with_bookkeepin); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 626, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_flatten_2d_lists_with_bookkeepin); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 625, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_1 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
@@ -11199,7 +11178,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   }
   __pyx_t_11 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_v_wherepos_neigh_stacked) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_wherepos_neigh_stacked);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 626, __pyx_L1_error)
+  if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 625, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if ((likely(PyTuple_CheckExact(__pyx_t_11))) || (PyList_CheckExact(__pyx_t_11))) {
@@ -11208,7 +11187,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     if (unlikely(size != 2)) {
       if (size > 2) __Pyx_RaiseTooManyValuesError(2);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 626, __pyx_L1_error)
+      __PYX_ERR(0, 625, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -11221,15 +11200,15 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_1);
     #else
-    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 626, __pyx_L1_error)
+    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 626, __pyx_L1_error)
+    __pyx_t_1 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     #endif
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_14 = PyObject_GetIter(__pyx_t_11); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 626, __pyx_L1_error)
+    __pyx_t_14 = PyObject_GetIter(__pyx_t_11); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __pyx_t_19 = Py_TYPE(__pyx_t_14)->tp_iternext;
@@ -11237,7 +11216,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     __Pyx_GOTREF(__pyx_t_2);
     index = 1; __pyx_t_1 = __pyx_t_19(__pyx_t_14); if (unlikely(!__pyx_t_1)) goto __pyx_L20_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_19(__pyx_t_14), 2) < 0) __PYX_ERR(0, 626, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_19(__pyx_t_14), 2) < 0) __PYX_ERR(0, 625, __pyx_L1_error)
     __pyx_t_19 = NULL;
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     goto __pyx_L21_unpacking_done;
@@ -11245,7 +11224,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __pyx_t_19 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 626, __pyx_L1_error)
+    __PYX_ERR(0, 625, __pyx_L1_error)
     __pyx_L21_unpacking_done:;
   }
   __pyx_v_wherepos_neigh_flat = __pyx_t_2;
@@ -11253,7 +11232,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __pyx_v_auxpos_list = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":628
+  /* "operatorsHeatCurrent.pyx":627
  *     wherepos_neigh_flat, auxpos_list = flatten_2d_lists_with_bookkeeping(wherepos_neigh_stacked)
  * 
  *     return lead_scatreg_where, where, auxwhere_list, wherepos_neigh_flat, auxpos_list             # <<<<<<<<<<<<<<
@@ -11261,7 +11240,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_11 = PyTuple_New(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 628, __pyx_L1_error)
+  __pyx_t_11 = PyTuple_New(5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 627, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_INCREF(__pyx_v_lead_scatreg_where);
   __Pyx_GIVEREF(__pyx_v_lead_scatreg_where);
@@ -11282,7 +11261,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":547
+  /* "operatorsHeatCurrent.pyx":546
  * 
  * 
  * def _create_where_lists_from_added_sites(fsyst, intracell_sites, intercell_sites):             # <<<<<<<<<<<<<<
@@ -11323,7 +11302,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_8_create_where_lists_from_added
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":632
+/* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
@@ -11367,17 +11346,17 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_11_create_list_of_certain_neigh
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_initial_list)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, 1); __PYX_ERR(0, 632, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, 1); __PYX_ERR(0, 631, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_forbidden_list)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, 2); __PYX_ERR(0, 632, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, 2); __PYX_ERR(0, 631, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_list_of_certain_neighbors") < 0)) __PYX_ERR(0, 632, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_list_of_certain_neighbors") < 0)) __PYX_ERR(0, 631, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 3) {
       goto __pyx_L5_argtuple_error;
@@ -11392,7 +11371,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_11_create_list_of_certain_neigh
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 632, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_create_list_of_certain_neighbors", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 631, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent._create_list_of_certain_neighbors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -11406,7 +11385,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_11_create_list_of_certain_neigh
 }
 static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_2generator7(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
 
-/* "operatorsHeatCurrent.pyx":649
+/* "operatorsHeatCurrent.pyx":648
  *     #check type of sites in the given lists and convert to int if needed
  *     if isinstance(initial_list[0], kwant.builder.Site):
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)             # <<<<<<<<<<<<<<
@@ -11423,7 +11402,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neigh
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 649, __pyx_L1_error)
+    __PYX_ERR(0, 648, __pyx_L1_error)
   } else {
     __Pyx_GOTREF(__pyx_cur_scope);
   }
@@ -11431,7 +11410,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neigh
   __Pyx_INCREF(((PyObject *)__pyx_cur_scope->__pyx_outer_scope));
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_outer_scope);
   {
-    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_2generator7, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_create_list_of_certain_neighbor_2, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!gen)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_2generator7, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_create_list_of_certain_neighbor_2, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!gen)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -11465,34 +11444,34 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 649, __pyx_L1_error)
-  __pyx_r = PyList_New(0); if (unlikely(!__pyx_r)) __PYX_ERR(0, 649, __pyx_L1_error)
+  if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __pyx_r = PyList_New(0); if (unlikely(!__pyx_r)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list)) { __Pyx_RaiseClosureNameError("initial_list"); __PYX_ERR(0, 649, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list)) { __Pyx_RaiseClosureNameError("initial_list"); __PYX_ERR(0, 648, __pyx_L1_error) }
   if (likely(PyList_CheckExact(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list)) || PyTuple_CheckExact(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list)) {
     __pyx_t_1 = __pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list; __Pyx_INCREF(__pyx_t_1); __pyx_t_2 = 0;
     __pyx_t_3 = NULL;
   } else {
-    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_t_3 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 648, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_3)) {
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_2 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 649, __pyx_L1_error)
+        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 648, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 649, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 648, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       } else {
         if (__pyx_t_2 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 649, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 648, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 649, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 648, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       }
@@ -11502,7 +11481,7 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 649, __pyx_L1_error)
+          else __PYX_ERR(0, 648, __pyx_L1_error)
         }
         break;
       }
@@ -11512,13 +11491,13 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
     __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_s, __pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_4);
     __pyx_t_4 = 0;
-    if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst)) { __Pyx_RaiseClosureNameError("fsyst"); __PYX_ERR(0, 649, __pyx_L1_error) }
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst, __pyx_n_s_id_by_site); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 649, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst)) { __Pyx_RaiseClosureNameError("fsyst"); __PYX_ERR(0, 648, __pyx_L1_error) }
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst, __pyx_n_s_id_by_site); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_cur_scope->__pyx_v_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_cur_scope->__pyx_v_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(__Pyx_ListComp_Append(__pyx_r, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 649, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_r, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11544,7 +11523,7 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
 }
 static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_5generator8(__pyx_CoroutineObject *__pyx_generator, CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value); /* proto */
 
-/* "operatorsHeatCurrent.pyx":651
+/* "operatorsHeatCurrent.pyx":650
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)             # <<<<<<<<<<<<<<
@@ -11561,7 +11540,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neigh
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 651, __pyx_L1_error)
+    __PYX_ERR(0, 650, __pyx_L1_error)
   } else {
     __Pyx_GOTREF(__pyx_cur_scope);
   }
@@ -11569,7 +11548,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neigh
   __Pyx_INCREF(((PyObject *)__pyx_cur_scope->__pyx_outer_scope));
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_outer_scope);
   {
-    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_5generator8, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_create_list_of_certain_neighbor_2, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!gen)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_CoroutineObject *gen = __Pyx_Generator_New((__pyx_coroutine_body_t) __pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_5generator8, NULL, (PyObject *) __pyx_cur_scope, __pyx_n_s_genexpr, __pyx_n_s_create_list_of_certain_neighbor_2, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!gen)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -11603,34 +11582,34 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 651, __pyx_L1_error)
-  __pyx_r = PyList_New(0); if (unlikely(!__pyx_r)) __PYX_ERR(0, 651, __pyx_L1_error)
+  if (unlikely(!__pyx_sent_value)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_r = PyList_New(0); if (unlikely(!__pyx_r)) __PYX_ERR(0, 650, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_r);
-  if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list)) { __Pyx_RaiseClosureNameError("forbidden_list"); __PYX_ERR(0, 651, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list)) { __Pyx_RaiseClosureNameError("forbidden_list"); __PYX_ERR(0, 650, __pyx_L1_error) }
   if (likely(PyList_CheckExact(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list)) || PyTuple_CheckExact(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list)) {
     __pyx_t_1 = __pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list; __Pyx_INCREF(__pyx_t_1); __pyx_t_2 = 0;
     __pyx_t_3 = NULL;
   } else {
-    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_forbidden_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_t_3 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 650, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_3)) {
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_2 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 651, __pyx_L1_error)
+        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 650, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 651, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 650, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       } else {
         if (__pyx_t_2 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 651, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_2); __Pyx_INCREF(__pyx_t_4); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(0, 650, __pyx_L1_error)
         #else
-        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 651, __pyx_L1_error)
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_1, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 650, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         #endif
       }
@@ -11640,7 +11619,7 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 651, __pyx_L1_error)
+          else __PYX_ERR(0, 650, __pyx_L1_error)
         }
         break;
       }
@@ -11650,13 +11629,13 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
     __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_s, __pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_4);
     __pyx_t_4 = 0;
-    if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst)) { __Pyx_RaiseClosureNameError("fsyst"); __PYX_ERR(0, 651, __pyx_L1_error) }
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst, __pyx_n_s_id_by_site); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 651, __pyx_L1_error)
+    if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst)) { __Pyx_RaiseClosureNameError("fsyst"); __PYX_ERR(0, 650, __pyx_L1_error) }
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_fsyst, __pyx_n_s_id_by_site); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_cur_scope->__pyx_v_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_cur_scope->__pyx_v_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(__Pyx_ListComp_Append(__pyx_r, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 651, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_r, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11681,7 +11660,7 @@ static PyObject *__pyx_gb_20operatorsHeatCurrent_33_create_list_of_certain_neigh
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":632
+/* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
@@ -11714,7 +11693,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 632, __pyx_L1_error)
+    __PYX_ERR(0, 631, __pyx_L1_error)
   } else {
     __Pyx_GOTREF(__pyx_cur_scope);
   }
@@ -11728,39 +11707,39 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_forbidden_list);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_forbidden_list);
 
-  /* "operatorsHeatCurrent.pyx":648
+  /* "operatorsHeatCurrent.pyx":647
  *     """
  *     #check type of sites in the given lists and convert to int if needed
  *     if isinstance(initial_list[0], kwant.builder.Site):             # <<<<<<<<<<<<<<
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_initial_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_initial_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_builder); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_builder); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Site); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Site); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_4 = PyObject_IsInstance(__pyx_t_1, __pyx_t_2); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 648, __pyx_L1_error)
+  __pyx_t_4 = PyObject_IsInstance(__pyx_t_1, __pyx_t_2); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 647, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
-    /* "operatorsHeatCurrent.pyx":649
+    /* "operatorsHeatCurrent.pyx":648
  *     #check type of sites in the given lists and convert to int if needed
  *     if isinstance(initial_list[0], kwant.builder.Site):
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)             # <<<<<<<<<<<<<<
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)
  */
-    __pyx_t_2 = __pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_t_2 = __pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_Generator_Next(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 649, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_Generator_Next(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_cur_scope->__pyx_v_initial_list);
@@ -11768,7 +11747,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     __Pyx_GIVEREF(__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "operatorsHeatCurrent.pyx":648
+    /* "operatorsHeatCurrent.pyx":647
  *     """
  *     #check type of sites in the given lists and convert to int if needed
  *     if isinstance(initial_list[0], kwant.builder.Site):             # <<<<<<<<<<<<<<
@@ -11777,39 +11756,39 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  */
   }
 
-  /* "operatorsHeatCurrent.pyx":650
+  /* "operatorsHeatCurrent.pyx":649
  *     if isinstance(initial_list[0], kwant.builder.Site):
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):             # <<<<<<<<<<<<<<
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)
  *     assert type(initial_list[0]) == int
  */
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_forbidden_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_forbidden_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_builder); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_builder); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Site); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Site); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = PyObject_IsInstance(__pyx_t_1, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 650, __pyx_L1_error)
+  __pyx_t_5 = PyObject_IsInstance(__pyx_t_1, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 649, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (__pyx_t_5 != 0);
   if (__pyx_t_4) {
 
-    /* "operatorsHeatCurrent.pyx":651
+    /* "operatorsHeatCurrent.pyx":650
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)             # <<<<<<<<<<<<<<
  *     assert type(initial_list[0]) == int
  *     assert type(forbidden_list[0]) == int
  */
-    __pyx_t_2 = __pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_3genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_t_2 = __pyx_pf_20operatorsHeatCurrent_33_create_list_of_certain_neighbors_3genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_Generator_Next(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 651, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_Generator_Next(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 650, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_cur_scope->__pyx_v_forbidden_list);
@@ -11817,7 +11796,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     __Pyx_GIVEREF(__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "operatorsHeatCurrent.pyx":650
+    /* "operatorsHeatCurrent.pyx":649
  *     if isinstance(initial_list[0], kwant.builder.Site):
  *         initial_list = list(fsyst.id_by_site[s] for s in initial_list)
  *     if isinstance(forbidden_list[0], kwant.builder.Site):             # <<<<<<<<<<<<<<
@@ -11826,7 +11805,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  */
   }
 
-  /* "operatorsHeatCurrent.pyx":652
+  /* "operatorsHeatCurrent.pyx":651
  *     if isinstance(forbidden_list[0], kwant.builder.Site):
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)
  *     assert type(initial_list[0]) == int             # <<<<<<<<<<<<<<
@@ -11835,20 +11814,20 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_initial_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 652, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_initial_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 651, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_t_1)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 652, __pyx_L1_error)
+    __pyx_t_2 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_t_1)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 651, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 652, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 651, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (unlikely(!__pyx_t_4)) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 652, __pyx_L1_error)
+      __PYX_ERR(0, 651, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":653
+  /* "operatorsHeatCurrent.pyx":652
  *         forbidden_list = list(fsyst.id_by_site[s] for s in forbidden_list)
  *     assert type(initial_list[0]) == int
  *     assert type(forbidden_list[0]) == int             # <<<<<<<<<<<<<<
@@ -11857,32 +11836,32 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_forbidden_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 653, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_cur_scope->__pyx_v_forbidden_list, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 652, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_t_2)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 653, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_t_2)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 652, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 653, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 652, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_4)) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 653, __pyx_L1_error)
+      __PYX_ERR(0, 652, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":657
+  /* "operatorsHeatCurrent.pyx":656
  *     # create list in which the neighbors of 'initial_list' which are not in
  *     # 'forbidden_list' nor in 'initial_list' are stored.
  *     neighbor_list = []             # <<<<<<<<<<<<<<
  *     for i in initial_list:
  *         assert(type(i) == int)
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 657, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 656, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_neighbor_list = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":658
+  /* "operatorsHeatCurrent.pyx":657
  *     # 'forbidden_list' nor in 'initial_list' are stored.
  *     neighbor_list = []
  *     for i in initial_list:             # <<<<<<<<<<<<<<
@@ -11893,26 +11872,26 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     __pyx_t_1 = __pyx_cur_scope->__pyx_v_initial_list; __Pyx_INCREF(__pyx_t_1); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 658, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 657, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 658, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 657, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_7)) {
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_2); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 658, __pyx_L1_error)
+        __pyx_t_2 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_2); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 657, __pyx_L1_error)
         #else
-        __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 658, __pyx_L1_error)
+        __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 657, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_2); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 658, __pyx_L1_error)
+        __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_2); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 657, __pyx_L1_error)
         #else
-        __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 658, __pyx_L1_error)
+        __pyx_t_2 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 657, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         #endif
       }
@@ -11922,7 +11901,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 658, __pyx_L1_error)
+          else __PYX_ERR(0, 657, __pyx_L1_error)
         }
         break;
       }
@@ -11931,7 +11910,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "operatorsHeatCurrent.pyx":659
+    /* "operatorsHeatCurrent.pyx":658
  *     neighbor_list = []
  *     for i in initial_list:
  *         assert(type(i) == int)             # <<<<<<<<<<<<<<
@@ -11940,26 +11919,26 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  */
     #ifndef CYTHON_WITHOUT_ASSERTIONS
     if (unlikely(!Py_OptimizeFlag)) {
-      __pyx_t_2 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_i)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
-      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 659, __pyx_L1_error)
+      __pyx_t_2 = PyObject_RichCompare(((PyObject *)Py_TYPE(__pyx_v_i)), ((PyObject *)(&PyInt_Type)), Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 658, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 658, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (unlikely(!__pyx_t_4)) {
         PyErr_SetNone(PyExc_AssertionError);
-        __PYX_ERR(0, 659, __pyx_L1_error)
+        __PYX_ERR(0, 658, __pyx_L1_error)
       }
     }
     #endif
 
-    /* "operatorsHeatCurrent.pyx":660
+    /* "operatorsHeatCurrent.pyx":659
  *     for i in initial_list:
  *         assert(type(i) == int)
  *         for iedge in fsyst.graph.out_edge_ids(i):             # <<<<<<<<<<<<<<
  *             neighbor = fsyst.graph.head(iedge)
  *             #neighbor in forbidden_list -> do nothing:
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 660, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 659, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_out_edge_ids); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 660, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_out_edge_ids); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 659, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -11974,16 +11953,16 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     }
     __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_3, __pyx_v_i) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_v_i);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 660, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     if (likely(PyList_CheckExact(__pyx_t_2)) || PyTuple_CheckExact(__pyx_t_2)) {
       __pyx_t_8 = __pyx_t_2; __Pyx_INCREF(__pyx_t_8); __pyx_t_9 = 0;
       __pyx_t_10 = NULL;
     } else {
-      __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 660, __pyx_L1_error)
+      __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 659, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 660, __pyx_L1_error)
+      __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 659, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     for (;;) {
@@ -11991,17 +11970,17 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
         if (likely(PyList_CheckExact(__pyx_t_8))) {
           if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_8)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_2 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_2); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 660, __pyx_L1_error)
+          __pyx_t_2 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_2); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 659, __pyx_L1_error)
           #else
-          __pyx_t_2 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 660, __pyx_L1_error)
+          __pyx_t_2 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           #endif
         } else {
           if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_8)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_2); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 660, __pyx_L1_error)
+          __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_2); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 659, __pyx_L1_error)
           #else
-          __pyx_t_2 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 660, __pyx_L1_error)
+          __pyx_t_2 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           #endif
         }
@@ -12011,7 +11990,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 660, __pyx_L1_error)
+            else __PYX_ERR(0, 659, __pyx_L1_error)
           }
           break;
         }
@@ -12020,16 +11999,16 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
       __Pyx_XDECREF_SET(__pyx_v_iedge, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "operatorsHeatCurrent.pyx":661
+      /* "operatorsHeatCurrent.pyx":660
  *         assert(type(i) == int)
  *         for iedge in fsyst.graph.out_edge_ids(i):
  *             neighbor = fsyst.graph.head(iedge)             # <<<<<<<<<<<<<<
  *             #neighbor in forbidden_list -> do nothing:
  *             if neighbor in set(forbidden_list):
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 661, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_fsyst, __pyx_n_s_graph); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 660, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_head); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 661, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_head); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 660, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_3 = NULL;
@@ -12044,61 +12023,61 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
       }
       __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_11, __pyx_t_3, __pyx_v_iedge) : __Pyx_PyObject_CallOneArg(__pyx_t_11, __pyx_v_iedge);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 661, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 660, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_XDECREF_SET(__pyx_v_neighbor, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "operatorsHeatCurrent.pyx":663
+      /* "operatorsHeatCurrent.pyx":662
  *             neighbor = fsyst.graph.head(iedge)
  *             #neighbor in forbidden_list -> do nothing:
  *             if neighbor in set(forbidden_list):             # <<<<<<<<<<<<<<
  *                 pass
  *             #neighbor in initial_list -> do nothing:
  */
-      __pyx_t_2 = PySet_New(__pyx_cur_scope->__pyx_v_forbidden_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 663, __pyx_L1_error)
+      __pyx_t_2 = PySet_New(__pyx_cur_scope->__pyx_v_forbidden_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 662, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_4 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 663, __pyx_L1_error)
+      __pyx_t_4 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 662, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_5 = (__pyx_t_4 != 0);
       if (__pyx_t_5) {
         goto __pyx_L9;
       }
 
-      /* "operatorsHeatCurrent.pyx":666
+      /* "operatorsHeatCurrent.pyx":665
  *                 pass
  *             #neighbor in initial_list -> do nothing:
  *             elif neighbor in set(initial_list):             # <<<<<<<<<<<<<<
  *                 pass
  *             #neighbor already in neighbor_list -> do nothing:
  */
-      __pyx_t_2 = PySet_New(__pyx_cur_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 666, __pyx_L1_error)
+      __pyx_t_2 = PySet_New(__pyx_cur_scope->__pyx_v_initial_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 665, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_5 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 666, __pyx_L1_error)
+      __pyx_t_5 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 665, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_4 = (__pyx_t_5 != 0);
       if (__pyx_t_4) {
         goto __pyx_L9;
       }
 
-      /* "operatorsHeatCurrent.pyx":669
+      /* "operatorsHeatCurrent.pyx":668
  *                 pass
  *             #neighbor already in neighbor_list -> do nothing:
  *             elif neighbor in set(neighbor_list):             # <<<<<<<<<<<<<<
  *                 pass
  *             #neighbor not yey in neighbor_list -> add it
  */
-      __pyx_t_2 = PySet_New(__pyx_v_neighbor_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 669, __pyx_L1_error)
+      __pyx_t_2 = PySet_New(__pyx_v_neighbor_list); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 668, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_4 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 669, __pyx_L1_error)
+      __pyx_t_4 = (__Pyx_PySet_ContainsTF(__pyx_v_neighbor, __pyx_t_2, Py_EQ)); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 668, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_5 = (__pyx_t_4 != 0);
       if (__pyx_t_5) {
         goto __pyx_L9;
       }
 
-      /* "operatorsHeatCurrent.pyx":673
+      /* "operatorsHeatCurrent.pyx":672
  *             #neighbor not yey in neighbor_list -> add it
  *             else:
  *                 neighbor_list.append(neighbor)             # <<<<<<<<<<<<<<
@@ -12106,11 +12085,11 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
  *     return neighbor_list
  */
       /*else*/ {
-        __pyx_t_12 = __Pyx_PyList_Append(__pyx_v_neighbor_list, __pyx_v_neighbor); if (unlikely(__pyx_t_12 == ((int)-1))) __PYX_ERR(0, 673, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyList_Append(__pyx_v_neighbor_list, __pyx_v_neighbor); if (unlikely(__pyx_t_12 == ((int)-1))) __PYX_ERR(0, 672, __pyx_L1_error)
       }
       __pyx_L9:;
 
-      /* "operatorsHeatCurrent.pyx":660
+      /* "operatorsHeatCurrent.pyx":659
  *     for i in initial_list:
  *         assert(type(i) == int)
  *         for iedge in fsyst.graph.out_edge_ids(i):             # <<<<<<<<<<<<<<
@@ -12120,7 +12099,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
     }
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "operatorsHeatCurrent.pyx":658
+    /* "operatorsHeatCurrent.pyx":657
  *     # 'forbidden_list' nor in 'initial_list' are stored.
  *     neighbor_list = []
  *     for i in initial_list:             # <<<<<<<<<<<<<<
@@ -12130,7 +12109,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":675
+  /* "operatorsHeatCurrent.pyx":674
  *                 neighbor_list.append(neighbor)
  * 
  *     return neighbor_list             # <<<<<<<<<<<<<<
@@ -12142,7 +12121,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
   __pyx_r = __pyx_v_neighbor_list;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":632
+  /* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
@@ -12170,7 +12149,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_10_create_list_of_certain_neigh
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":730
+/* "operatorsHeatCurrent.pyx":729
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, where, auxwhere_list,             # <<<<<<<<<<<<<<
@@ -12195,7 +12174,7 @@ static int __pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_1__init__(PyObject
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_syst,&__pyx_n_s_where,&__pyx_n_s_auxwhere_list,&__pyx_n_s_wherepos_neigh,&__pyx_n_s_auxpos_list,&__pyx_n_s_check_hermiticity,&__pyx_n_s_sum,0};
     PyObject* values[7] = {0,0,0,0,0,0,0};
 
-    /* "operatorsHeatCurrent.pyx":731
+    /* "operatorsHeatCurrent.pyx":730
  *     @cython.embedsignature
  *     def __init__(self, syst, where, auxwhere_list,
  *                                     wherepos_neigh, auxpos_list, *, check_hermiticity=True, sum=True):             # <<<<<<<<<<<<<<
@@ -12230,25 +12209,25 @@ static int __pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_1__init__(PyObject
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_where)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 1); __PYX_ERR(0, 730, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 1); __PYX_ERR(0, 729, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_auxwhere_list)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 2); __PYX_ERR(0, 730, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 2); __PYX_ERR(0, 729, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_wherepos_neigh)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 3); __PYX_ERR(0, 730, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 3); __PYX_ERR(0, 729, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_auxpos_list)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 4); __PYX_ERR(0, 730, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, 4); __PYX_ERR(0, 729, __pyx_L3_error)
         }
       }
       if (kw_args > 0 && likely(kw_args <= 2)) {
@@ -12259,7 +12238,7 @@ static int __pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_1__init__(PyObject
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 730, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 729, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 5) {
       goto __pyx_L5_argtuple_error;
@@ -12280,7 +12259,7 @@ static int __pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_1__init__(PyObject
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 730, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 729, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.offEnergyCurrent.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -12288,7 +12267,7 @@ static int __pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_1__init__(PyObject
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(((struct __pyx_obj_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self), __pyx_v_syst, __pyx_v_where, __pyx_v_auxwhere_list, __pyx_v_wherepos_neigh, __pyx_v_auxpos_list, __pyx_v_check_hermiticity, __pyx_v_sum);
 
-  /* "operatorsHeatCurrent.pyx":730
+  /* "operatorsHeatCurrent.pyx":729
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, where, auxwhere_list,             # <<<<<<<<<<<<<<
@@ -12314,7 +12293,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   __Pyx_RefNannySetupContext("__init__", 0);
   __Pyx_INCREF(__pyx_v_where);
 
-  /* "operatorsHeatCurrent.pyx":732
+  /* "operatorsHeatCurrent.pyx":731
  *     def __init__(self, syst, where, auxwhere_list,
  *                                     wherepos_neigh, auxpos_list, *, check_hermiticity=True, sum=True):
  *         assert(where != None)             # <<<<<<<<<<<<<<
@@ -12323,68 +12302,68 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_where, Py_None, Py_NE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 732, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 732, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_where, Py_None, Py_NE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 731, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 731, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_2)) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 732, __pyx_L1_error)
+      __PYX_ERR(0, 731, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":733
+  /* "operatorsHeatCurrent.pyx":732
  *                                     wherepos_neigh, auxpos_list, *, check_hermiticity=True, sum=True):
  *         assert(where != None)
  *         self.auxwhere_list = auxwhere_list             # <<<<<<<<<<<<<<
  *         self.wherepos_neigh = wherepos_neigh
  *         self.auxpos_list = auxpos_list
  */
-  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_auxwhere_list, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 733, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_auxwhere_list, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 732, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->auxwhere_list, 0);
   __pyx_v_self->auxwhere_list = __pyx_t_3;
   __pyx_t_3.memview = NULL;
   __pyx_t_3.data = NULL;
 
-  /* "operatorsHeatCurrent.pyx":734
+  /* "operatorsHeatCurrent.pyx":733
  *         assert(where != None)
  *         self.auxwhere_list = auxwhere_list
  *         self.wherepos_neigh = wherepos_neigh             # <<<<<<<<<<<<<<
  *         self.auxpos_list = auxpos_list
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_wherepos_neigh, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 734, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_wherepos_neigh, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 733, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->wherepos_neigh, 0);
   __pyx_v_self->wherepos_neigh = __pyx_t_3;
   __pyx_t_3.memview = NULL;
   __pyx_t_3.data = NULL;
 
-  /* "operatorsHeatCurrent.pyx":735
+  /* "operatorsHeatCurrent.pyx":734
  *         self.auxwhere_list = auxwhere_list
  *         self.wherepos_neigh = wherepos_neigh
  *         self.auxpos_list = auxpos_list             # <<<<<<<<<<<<<<
  * 
  *         where = kwant.operator._normalize_hopping_where(syst, where)
  */
-  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_auxpos_list, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 735, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_auxpos_list, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 734, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->auxpos_list, 0);
   __pyx_v_self->auxpos_list = __pyx_t_3;
   __pyx_t_3.memview = NULL;
   __pyx_t_3.data = NULL;
 
-  /* "operatorsHeatCurrent.pyx":737
+  /* "operatorsHeatCurrent.pyx":736
  *         self.auxpos_list = auxpos_list
  * 
  *         where = kwant.operator._normalize_hopping_where(syst, where)             # <<<<<<<<<<<<<<
  *         super().__init__(syst, onsite=1, where=where, check_hermiticity=check_hermiticity, sum=sum)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_kwant); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 737, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_kwant); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_operator); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 737, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_operator); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_normalize_hopping_where); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 737, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_normalize_hopping_where); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -12402,7 +12381,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_4)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_syst, __pyx_v_where};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -12410,13 +12389,13 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_syst, __pyx_v_where};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (__pyx_t_5) {
       __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -12427,7 +12406,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
     __Pyx_INCREF(__pyx_v_where);
     __Pyx_GIVEREF(__pyx_v_where);
     PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_v_where);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
@@ -12435,14 +12414,14 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   __Pyx_DECREF_SET(__pyx_v_where, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":738
+  /* "operatorsHeatCurrent.pyx":737
  * 
  *         where = kwant.operator._normalize_hopping_where(syst, where)
  *         super().__init__(syst, onsite=1, where=where, check_hermiticity=check_hermiticity, sum=sum)             # <<<<<<<<<<<<<<
  * 
  *     @cython.embedsignature
  */
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_offEnergyCurrent));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_offEnergyCurrent));
@@ -12450,31 +12429,31 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_self));
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_v_syst);
   __Pyx_GIVEREF(__pyx_v_syst);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_syst);
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 738, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_onsite, __pyx_int_1) < 0) __PYX_ERR(0, 738, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_where, __pyx_v_where) < 0) __PYX_ERR(0, 738, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_check_hermiticity, __pyx_v_check_hermiticity) < 0) __PYX_ERR(0, 738, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_sum, __pyx_v_sum) < 0) __PYX_ERR(0, 738, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 738, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_onsite, __pyx_int_1) < 0) __PYX_ERR(0, 737, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_where, __pyx_v_where) < 0) __PYX_ERR(0, 737, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_check_hermiticity, __pyx_v_check_hermiticity) < 0) __PYX_ERR(0, 737, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_sum, __pyx_v_sum) < 0) __PYX_ERR(0, 737, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 737, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "operatorsHeatCurrent.pyx":730
+  /* "operatorsHeatCurrent.pyx":729
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, where, auxwhere_list,             # <<<<<<<<<<<<<<
@@ -12499,7 +12478,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent___init__(struct __
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":741
+/* "operatorsHeatCurrent.pyx":740
  * 
  *     @cython.embedsignature
  *     def bind(self, args=(), *, params=None):             # <<<<<<<<<<<<<<
@@ -12544,7 +12523,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_3bind(PyObje
         if (value) { values[index] = value; kw_args--; }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "bind") < 0)) __PYX_ERR(0, 741, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "bind") < 0)) __PYX_ERR(0, 740, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -12559,7 +12538,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_3bind(PyObje
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("bind", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 741, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("bind", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 740, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.offEnergyCurrent.bind", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -12582,14 +12561,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_2bind(struct
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("bind", 0);
 
-  /* "operatorsHeatCurrent.pyx":747
+  /* "operatorsHeatCurrent.pyx":746
  *         arguments when subsequently called or when using the ``act`` method.
  *         """
  *         q = super().bind(args, params=params)             # <<<<<<<<<<<<<<
  *         q.auxwhere_list = self.auxwhere_list
  *         q.wherepos_neigh = self.wherepos_neigh
  */
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_offEnergyCurrent));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_offEnergyCurrent));
@@ -12597,21 +12576,21 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_2bind(struct
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_self));
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_bind); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_bind); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_args);
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 747, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 747, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 747, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 746, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -12619,58 +12598,58 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_2bind(struct
   __pyx_v_q = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":748
+  /* "operatorsHeatCurrent.pyx":747
  *         """
  *         q = super().bind(args, params=params)
  *         q.auxwhere_list = self.auxwhere_list             # <<<<<<<<<<<<<<
  *         q.wherepos_neigh = self.wherepos_neigh
  *         q.auxpos_list = self.auxpos_list
  */
-  if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 748, __pyx_L1_error)}
-  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->auxwhere_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 748, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 747, __pyx_L1_error)}
+  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->auxwhere_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 747, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_auxwhere_list, __pyx_t_4) < 0) __PYX_ERR(0, 748, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_auxwhere_list, __pyx_t_4) < 0) __PYX_ERR(0, 747, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":749
+  /* "operatorsHeatCurrent.pyx":748
  *         q = super().bind(args, params=params)
  *         q.auxwhere_list = self.auxwhere_list
  *         q.wherepos_neigh = self.wherepos_neigh             # <<<<<<<<<<<<<<
  *         q.auxpos_list = self.auxpos_list
  *         q._bound_hamiltonian = self._eval_hamiltonian(args, params)
  */
-  if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 749, __pyx_L1_error)}
-  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->wherepos_neigh, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 748, __pyx_L1_error)}
+  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->wherepos_neigh, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 748, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_wherepos_neigh, __pyx_t_4) < 0) __PYX_ERR(0, 749, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_wherepos_neigh, __pyx_t_4) < 0) __PYX_ERR(0, 748, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":750
+  /* "operatorsHeatCurrent.pyx":749
  *         q.auxwhere_list = self.auxwhere_list
  *         q.wherepos_neigh = self.wherepos_neigh
  *         q.auxpos_list = self.auxpos_list             # <<<<<<<<<<<<<<
  *         q._bound_hamiltonian = self._eval_hamiltonian(args, params)
  *         return q
  */
-  if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 750, __pyx_L1_error)}
-  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->auxpos_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 750, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 749, __pyx_L1_error)}
+  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->auxpos_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_auxpos_list, __pyx_t_4) < 0) __PYX_ERR(0, 750, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_auxpos_list, __pyx_t_4) < 0) __PYX_ERR(0, 749, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":751
+  /* "operatorsHeatCurrent.pyx":750
  *         q.wherepos_neigh = self.wherepos_neigh
  *         q.auxpos_list = self.auxpos_list
  *         q._bound_hamiltonian = self._eval_hamiltonian(args, params)             # <<<<<<<<<<<<<<
  *         return q
  * 
  */
-  __pyx_t_4 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_hamiltonian(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 751, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_hamiltonian(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_bound_hamiltonian, __pyx_t_4) < 0) __PYX_ERR(0, 751, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_bound_hamiltonian, __pyx_t_4) < 0) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":752
+  /* "operatorsHeatCurrent.pyx":751
  *         q.auxpos_list = self.auxpos_list
  *         q._bound_hamiltonian = self._eval_hamiltonian(args, params)
  *         return q             # <<<<<<<<<<<<<<
@@ -12682,7 +12661,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_2bind(struct
   __pyx_r = __pyx_v_q;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":741
+  /* "operatorsHeatCurrent.pyx":740
  * 
  *     @cython.embedsignature
  *     def bind(self, args=(), *, params=None):             # <<<<<<<<<<<<<<
@@ -12705,7 +12684,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_2bind(struct
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":756
+/* "operatorsHeatCurrent.pyx":755
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -12729,7 +12708,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_5_operate(Py
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_out_data,&__pyx_n_s_bra,&__pyx_n_s_ket,&__pyx_n_s_args,&__pyx_n_s_op,&__pyx_n_s_params,0};
     PyObject* values[6] = {0,0,0,0,0,0};
 
-    /* "operatorsHeatCurrent.pyx":757
+    /* "operatorsHeatCurrent.pyx":756
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,
  *                  args, operation op, *, params=None):             # <<<<<<<<<<<<<<
@@ -12763,25 +12742,25 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_5_operate(Py
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_bra)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 1); __PYX_ERR(0, 756, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 1); __PYX_ERR(0, 755, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ket)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 2); __PYX_ERR(0, 756, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 2); __PYX_ERR(0, 755, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_args)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 3); __PYX_ERR(0, 756, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 3); __PYX_ERR(0, 755, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_op)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 4); __PYX_ERR(0, 756, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 4); __PYX_ERR(0, 755, __pyx_L3_error)
         }
       }
       if (kw_args == 1) {
@@ -12790,7 +12769,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_5_operate(Py
         if (value) { values[index] = value; kw_args--; }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_operate") < 0)) __PYX_ERR(0, 756, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_operate") < 0)) __PYX_ERR(0, 755, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 5) {
       goto __pyx_L5_argtuple_error;
@@ -12801,16 +12780,16 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_5_operate(Py
       values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
       values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
     }
-    __pyx_v_out_data = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_out_data.memview)) __PYX_ERR(0, 756, __pyx_L3_error)
-    __pyx_v_bra = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_bra.memview)) __PYX_ERR(0, 756, __pyx_L3_error)
-    __pyx_v_ket = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_ket.memview)) __PYX_ERR(0, 756, __pyx_L3_error)
+    __pyx_v_out_data = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_out_data.memview)) __PYX_ERR(0, 755, __pyx_L3_error)
+    __pyx_v_bra = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_bra.memview)) __PYX_ERR(0, 755, __pyx_L3_error)
+    __pyx_v_ket = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_ket.memview)) __PYX_ERR(0, 755, __pyx_L3_error)
     __pyx_v_args = values[3];
-    __pyx_v_op = ((__pyx_t_20operatorsHeatCurrent_operation)__Pyx_PyInt_As___pyx_t_20operatorsHeatCurrent_operation(values[4])); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 757, __pyx_L3_error)
+    __pyx_v_op = ((__pyx_t_20operatorsHeatCurrent_operation)__Pyx_PyInt_As___pyx_t_20operatorsHeatCurrent_operation(values[4])); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 756, __pyx_L3_error)
     __pyx_v_params = values[5];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 756, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 755, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.offEnergyCurrent._operate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -12818,7 +12797,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_16offEnergyCurrent_5_operate(Py
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(((struct __pyx_obj_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self), __pyx_v_out_data, __pyx_v_bra, __pyx_v_ket, __pyx_v_args, __pyx_v_op, __pyx_v_params);
 
-  /* "operatorsHeatCurrent.pyx":756
+  /* "operatorsHeatCurrent.pyx":755
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -12894,7 +12873,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
   Py_ssize_t __pyx_t_39;
   __Pyx_RefNannySetupContext("_operate", 0);
 
-  /* "operatorsHeatCurrent.pyx":759
+  /* "operatorsHeatCurrent.pyx":758
  *                  args, operation op, *, params=None):
  *         # prepare onsite matrices and hamiltonians
  *         cdef int unique_onsite = not callable(self.onsite)             # <<<<<<<<<<<<<<
@@ -12903,11 +12882,11 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
   __pyx_t_1 = __pyx_v_self->__pyx_base.onsite;
   __Pyx_INCREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 759, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_unique_onsite = (!(__pyx_t_2 != 0));
 
-  /* "operatorsHeatCurrent.pyx":760
+  /* "operatorsHeatCurrent.pyx":759
  *         # prepare onsite matrices and hamiltonians
  *         cdef int unique_onsite = not callable(self.onsite)
  *         cdef complex *H_ab = NULL             # <<<<<<<<<<<<<<
@@ -12916,7 +12895,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
   __pyx_v_H_ab = NULL;
 
-  /* "operatorsHeatCurrent.pyx":763
+  /* "operatorsHeatCurrent.pyx":762
  *         cdef kwant.operator.BlockSparseMatrix H_ab_blocks
  * 
  *         assert(unique_onsite)             # <<<<<<<<<<<<<<
@@ -12927,22 +12906,22 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
   if (unlikely(!Py_OptimizeFlag)) {
     if (unlikely(!(__pyx_v_unique_onsite != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 763, __pyx_L1_error)
+      __PYX_ERR(0, 762, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":765
+  /* "operatorsHeatCurrent.pyx":764
  *         assert(unique_onsite)
  * 
  *         if self._bound_hamiltonian:             # <<<<<<<<<<<<<<
  *             H_ab_blocks = self._bound_hamiltonian
  *         else:
  */
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->__pyx_base._bound_hamiltonian)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 765, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->__pyx_base._bound_hamiltonian)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 764, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "operatorsHeatCurrent.pyx":766
+    /* "operatorsHeatCurrent.pyx":765
  * 
  *         if self._bound_hamiltonian:
  *             H_ab_blocks = self._bound_hamiltonian             # <<<<<<<<<<<<<<
@@ -12954,7 +12933,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
     __pyx_v_H_ab_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "operatorsHeatCurrent.pyx":765
+    /* "operatorsHeatCurrent.pyx":764
  *         assert(unique_onsite)
  * 
  *         if self._bound_hamiltonian:             # <<<<<<<<<<<<<<
@@ -12964,7 +12943,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
     goto __pyx_L3;
   }
 
-  /* "operatorsHeatCurrent.pyx":768
+  /* "operatorsHeatCurrent.pyx":767
  *             H_ab_blocks = self._bound_hamiltonian
  *         else:
  *             H_ab_blocks = self._eval_hamiltonian(args, params)             # <<<<<<<<<<<<<<
@@ -12972,14 +12951,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  *         # main loop
  */
   /*else*/ {
-    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_hamiltonian(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 768, __pyx_L1_error)
+    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_offEnergyCurrent *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_hamiltonian(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 767, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_H_ab_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
   }
   __pyx_L3:;
 
-  /* "operatorsHeatCurrent.pyx":775
+  /* "operatorsHeatCurrent.pyx":774
  *         cdef gint o_q, o_i, o_j
  *         cdef complex tmp
  *         if op == ACT:             # <<<<<<<<<<<<<<
@@ -12989,20 +12968,20 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
   switch (__pyx_v_op) {
     case __pyx_e_20operatorsHeatCurrent_ACT:
 
-    /* "operatorsHeatCurrent.pyx":776
+    /* "operatorsHeatCurrent.pyx":775
  *         cdef complex tmp
  *         if op == ACT:
  *             raise NotImplementedError()             # <<<<<<<<<<<<<<
  *         elif op == MAT_ELS:
  *             num_iqhops = self.auxwhere_list[1]
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 776, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 775, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 776, __pyx_L1_error)
+    __PYX_ERR(0, 775, __pyx_L1_error)
 
-    /* "operatorsHeatCurrent.pyx":775
+    /* "operatorsHeatCurrent.pyx":774
  *         cdef gint o_q, o_i, o_j
  *         cdef complex tmp
  *         if op == ACT:             # <<<<<<<<<<<<<<
@@ -13012,18 +12991,18 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
     break;
     case __pyx_e_20operatorsHeatCurrent_MAT_ELS:
 
-    /* "operatorsHeatCurrent.pyx":778
+    /* "operatorsHeatCurrent.pyx":777
  *             raise NotImplementedError()
  *         elif op == MAT_ELS:
  *             num_iqhops = self.auxwhere_list[1]             # <<<<<<<<<<<<<<
  *             for iq_pos in range(num_iqhops):
  *                 # get Hamiltonian H_qi as well as
  */
-    if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 778, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 777, __pyx_L1_error)}
     __pyx_t_3 = 1;
     __pyx_v_num_iqhops = (*((gint *) ( /* dim=0 */ (__pyx_v_self->auxwhere_list.data + __pyx_t_3 * __pyx_v_self->auxwhere_list.strides[0]) )));
 
-    /* "operatorsHeatCurrent.pyx":779
+    /* "operatorsHeatCurrent.pyx":778
  *         elif op == MAT_ELS:
  *             num_iqhops = self.auxwhere_list[1]
  *             for iq_pos in range(num_iqhops):             # <<<<<<<<<<<<<<
@@ -13035,7 +13014,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_iq_pos = __pyx_t_6;
 
-      /* "operatorsHeatCurrent.pyx":782
+      /* "operatorsHeatCurrent.pyx":781
  *                 # get Hamiltonian H_qi as well as
  *                 # WF start index q_s and number of orbitals
  *                 H_iq = H_ab_blocks.get(iq_pos)             # <<<<<<<<<<<<<<
@@ -13044,56 +13023,56 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
       __pyx_v_H_iq = ((struct __pyx_vtabstruct_5kwant_8operator_BlockSparseMatrix *)__pyx_v_H_ab_blocks->__pyx_vtab)->get(__pyx_v_H_ab_blocks, __pyx_v_iq_pos);
 
-      /* "operatorsHeatCurrent.pyx":783
+      /* "operatorsHeatCurrent.pyx":782
  *                 # WF start index q_s and number of orbitals
  *                 H_iq = H_ab_blocks.get(iq_pos)
  *                 q_s = H_ab_blocks.block_offsets[iq_pos, 1]             # <<<<<<<<<<<<<<
  *                 q_norbs = H_ab_blocks.block_shapes[iq_pos, 1]
  *                 i_norbs = H_ab_blocks.block_shapes[iq_pos, 0]
  */
-      if (unlikely(!__pyx_v_H_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 783, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_H_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 782, __pyx_L1_error)}
       __pyx_t_7 = __pyx_v_iq_pos;
       __pyx_t_8 = 1;
       __pyx_v_q_s = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_offsets.data + __pyx_t_7 * __pyx_v_H_ab_blocks->block_offsets.strides[0]) ) + __pyx_t_8 * __pyx_v_H_ab_blocks->block_offsets.strides[1]) )));
 
-      /* "operatorsHeatCurrent.pyx":784
+      /* "operatorsHeatCurrent.pyx":783
  *                 H_iq = H_ab_blocks.get(iq_pos)
  *                 q_s = H_ab_blocks.block_offsets[iq_pos, 1]
  *                 q_norbs = H_ab_blocks.block_shapes[iq_pos, 1]             # <<<<<<<<<<<<<<
  *                 i_norbs = H_ab_blocks.block_shapes[iq_pos, 0]
  *                 num_ijneighs = self.auxpos_list[iq_pos+1] - self.auxpos_list[iq_pos]
  */
-      if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 784, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 783, __pyx_L1_error)}
       __pyx_t_9 = __pyx_v_iq_pos;
       __pyx_t_10 = 1;
       __pyx_v_q_norbs = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_shapes.data + __pyx_t_9 * __pyx_v_H_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_10 * __pyx_v_H_ab_blocks->block_shapes.strides[1]) )));
 
-      /* "operatorsHeatCurrent.pyx":785
+      /* "operatorsHeatCurrent.pyx":784
  *                 q_s = H_ab_blocks.block_offsets[iq_pos, 1]
  *                 q_norbs = H_ab_blocks.block_shapes[iq_pos, 1]
  *                 i_norbs = H_ab_blocks.block_shapes[iq_pos, 0]             # <<<<<<<<<<<<<<
  *                 num_ijneighs = self.auxpos_list[iq_pos+1] - self.auxpos_list[iq_pos]
  *                 # initialize sum variable
  */
-      if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 785, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 784, __pyx_L1_error)}
       __pyx_t_11 = __pyx_v_iq_pos;
       __pyx_t_12 = 0;
       __pyx_v_i_norbs = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_shapes.data + __pyx_t_11 * __pyx_v_H_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_12 * __pyx_v_H_ab_blocks->block_shapes.strides[1]) )));
 
-      /* "operatorsHeatCurrent.pyx":786
+      /* "operatorsHeatCurrent.pyx":785
  *                 q_norbs = H_ab_blocks.block_shapes[iq_pos, 1]
  *                 i_norbs = H_ab_blocks.block_shapes[iq_pos, 0]
  *                 num_ijneighs = self.auxpos_list[iq_pos+1] - self.auxpos_list[iq_pos]             # <<<<<<<<<<<<<<
  *                 # initialize sum variable
  *                 tmp = 0
  */
-      if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 786, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 785, __pyx_L1_error)}
       __pyx_t_13 = (__pyx_v_iq_pos + 1);
-      if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 786, __pyx_L1_error)}
+      if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 785, __pyx_L1_error)}
       __pyx_t_14 = __pyx_v_iq_pos;
       __pyx_v_num_ijneighs = ((*((gint *) ( /* dim=0 */ (__pyx_v_self->auxpos_list.data + __pyx_t_13 * __pyx_v_self->auxpos_list.strides[0]) ))) - (*((gint *) ( /* dim=0 */ (__pyx_v_self->auxpos_list.data + __pyx_t_14 * __pyx_v_self->auxpos_list.strides[0]) ))));
 
-      /* "operatorsHeatCurrent.pyx":788
+      /* "operatorsHeatCurrent.pyx":787
  *                 num_ijneighs = self.auxpos_list[iq_pos+1] - self.auxpos_list[iq_pos]
  *                 # initialize sum variable
  *                 tmp = 0             # <<<<<<<<<<<<<<
@@ -13102,7 +13081,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
       __pyx_v_tmp = __pyx_t_double_complex_from_parts(0, 0);
 
-      /* "operatorsHeatCurrent.pyx":789
+      /* "operatorsHeatCurrent.pyx":788
  *                 # initialize sum variable
  *                 tmp = 0
  *                 for neigh in range(num_ijneighs):             # <<<<<<<<<<<<<<
@@ -13114,20 +13093,20 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
       for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
         __pyx_v_neigh = __pyx_t_17;
 
-        /* "operatorsHeatCurrent.pyx":792
+        /* "operatorsHeatCurrent.pyx":791
  *                     # get Hamiltonian H_ij as well as
  *                     # WF start index j_s and number of orbitals
  *                     ij_pos = num_iqhops + self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]             # <<<<<<<<<<<<<<
  *                     H_ij = H_ab_blocks.get(ij_pos)
  *                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]
  */
-        if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 792, __pyx_L1_error)}
-        if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 792, __pyx_L1_error)}
+        if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 791, __pyx_L1_error)}
+        if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 791, __pyx_L1_error)}
         __pyx_t_18 = __pyx_v_iq_pos;
         __pyx_t_19 = ((*((gint *) ( /* dim=0 */ (__pyx_v_self->auxpos_list.data + __pyx_t_18 * __pyx_v_self->auxpos_list.strides[0]) ))) + __pyx_v_neigh);
         __pyx_v_ij_pos = (__pyx_v_num_iqhops + (*((gint *) ( /* dim=0 */ (__pyx_v_self->wherepos_neigh.data + __pyx_t_19 * __pyx_v_self->wherepos_neigh.strides[0]) ))));
 
-        /* "operatorsHeatCurrent.pyx":793
+        /* "operatorsHeatCurrent.pyx":792
  *                     # WF start index j_s and number of orbitals
  *                     ij_pos = num_iqhops + self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
  *                     H_ij = H_ab_blocks.get(ij_pos)             # <<<<<<<<<<<<<<
@@ -13136,31 +13115,31 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
         __pyx_v_H_ij = ((struct __pyx_vtabstruct_5kwant_8operator_BlockSparseMatrix *)__pyx_v_H_ab_blocks->__pyx_vtab)->get(__pyx_v_H_ab_blocks, __pyx_v_ij_pos);
 
-        /* "operatorsHeatCurrent.pyx":794
+        /* "operatorsHeatCurrent.pyx":793
  *                     ij_pos = num_iqhops + self.wherepos_neigh[self.auxpos_list[iq_pos]+neigh]
  *                     H_ij = H_ab_blocks.get(ij_pos)
  *                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]             # <<<<<<<<<<<<<<
  *                     j_norbs = H_ab_blocks.block_shapes[ij_pos, 1]
  *                     assert(i_norbs == H_ab_blocks.block_shapes[ij_pos, 0])
  */
-        if (unlikely(!__pyx_v_H_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 794, __pyx_L1_error)}
+        if (unlikely(!__pyx_v_H_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 793, __pyx_L1_error)}
         __pyx_t_20 = __pyx_v_ij_pos;
         __pyx_t_21 = 1;
         __pyx_v_j_s = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_offsets.data + __pyx_t_20 * __pyx_v_H_ab_blocks->block_offsets.strides[0]) ) + __pyx_t_21 * __pyx_v_H_ab_blocks->block_offsets.strides[1]) )));
 
-        /* "operatorsHeatCurrent.pyx":795
+        /* "operatorsHeatCurrent.pyx":794
  *                     H_ij = H_ab_blocks.get(ij_pos)
  *                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]
  *                     j_norbs = H_ab_blocks.block_shapes[ij_pos, 1]             # <<<<<<<<<<<<<<
  *                     assert(i_norbs == H_ab_blocks.block_shapes[ij_pos, 0])
  *                     ### do the actual calculation
  */
-        if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 795, __pyx_L1_error)}
+        if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 794, __pyx_L1_error)}
         __pyx_t_22 = __pyx_v_ij_pos;
         __pyx_t_23 = 1;
         __pyx_v_j_norbs = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_shapes.data + __pyx_t_22 * __pyx_v_H_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_23 * __pyx_v_H_ab_blocks->block_shapes.strides[1]) )));
 
-        /* "operatorsHeatCurrent.pyx":796
+        /* "operatorsHeatCurrent.pyx":795
  *                     j_s = H_ab_blocks.block_offsets[ij_pos, 1]
  *                     j_norbs = H_ab_blocks.block_shapes[ij_pos, 1]
  *                     assert(i_norbs == H_ab_blocks.block_shapes[ij_pos, 0])             # <<<<<<<<<<<<<<
@@ -13169,17 +13148,17 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
         #ifndef CYTHON_WITHOUT_ASSERTIONS
         if (unlikely(!Py_OptimizeFlag)) {
-          if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 796, __pyx_L1_error)}
+          if (unlikely(!__pyx_v_H_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 795, __pyx_L1_error)}
           __pyx_t_24 = __pyx_v_ij_pos;
           __pyx_t_25 = 0;
           if (unlikely(!((__pyx_v_i_norbs == (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_ab_blocks->block_shapes.data + __pyx_t_24 * __pyx_v_H_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_25 * __pyx_v_H_ab_blocks->block_shapes.strides[1]) )))) != 0))) {
             PyErr_SetNone(PyExc_AssertionError);
-            __PYX_ERR(0, 796, __pyx_L1_error)
+            __PYX_ERR(0, 795, __pyx_L1_error)
           }
         }
         #endif
 
-        /* "operatorsHeatCurrent.pyx":798
+        /* "operatorsHeatCurrent.pyx":797
  *                     assert(i_norbs == H_ab_blocks.block_shapes[ij_pos, 0])
  *                     ### do the actual calculation
  *                     for o_q in range(q_norbs):             # <<<<<<<<<<<<<<
@@ -13191,7 +13170,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
         for (__pyx_t_28 = 0; __pyx_t_28 < __pyx_t_27; __pyx_t_28+=1) {
           __pyx_v_o_q = __pyx_t_28;
 
-          /* "operatorsHeatCurrent.pyx":799
+          /* "operatorsHeatCurrent.pyx":798
  *                     ### do the actual calculation
  *                     for o_q in range(q_norbs):
  *                         for o_i in range(i_norbs):             # <<<<<<<<<<<<<<
@@ -13203,7 +13182,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
           for (__pyx_t_31 = 0; __pyx_t_31 < __pyx_t_30; __pyx_t_31+=1) {
             __pyx_v_o_i = __pyx_t_31;
 
-            /* "operatorsHeatCurrent.pyx":800
+            /* "operatorsHeatCurrent.pyx":799
  *                     for o_q in range(q_norbs):
  *                         for o_i in range(i_norbs):
  *                             for o_j in range(j_norbs):             # <<<<<<<<<<<<<<
@@ -13215,7 +13194,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
             for (__pyx_t_34 = 0; __pyx_t_34 < __pyx_t_33; __pyx_t_34+=1) {
               __pyx_v_o_j = __pyx_t_34;
 
-              /* "operatorsHeatCurrent.pyx":801
+              /* "operatorsHeatCurrent.pyx":800
  *                         for o_i in range(i_norbs):
  *                             for o_j in range(j_norbs):
  *                                 tmp += (bra[q_s+o_q].conjugate() *             # <<<<<<<<<<<<<<
@@ -13224,7 +13203,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
               __pyx_t_35 = (__pyx_v_q_s + __pyx_v_o_q);
 
-              /* "operatorsHeatCurrent.pyx":804
+              /* "operatorsHeatCurrent.pyx":803
  *                                        H_iq[o_i*q_norbs + o_q].conjugate() *
  *                                        H_ij[o_i*j_norbs + o_j] *
  *                                        ket[j_s+o_j]             # <<<<<<<<<<<<<<
@@ -13233,7 +13212,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
               __pyx_t_36 = (__pyx_v_j_s + __pyx_v_o_j);
 
-              /* "operatorsHeatCurrent.pyx":805
+              /* "operatorsHeatCurrent.pyx":804
  *                                        H_ij[o_i*j_norbs + o_j] *
  *                                        ket[j_s+o_j]
  *                                      - bra[j_s+o_j].conjugate() *             # <<<<<<<<<<<<<<
@@ -13242,7 +13221,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
               __pyx_t_37 = (__pyx_v_j_s + __pyx_v_o_j);
 
-              /* "operatorsHeatCurrent.pyx":808
+              /* "operatorsHeatCurrent.pyx":807
  *                                        H_ij[o_i*j_norbs + o_j].conjugate() *
  *                                        H_iq[o_i*q_norbs + o_q] *
  *                                        ket[q_s+o_q])             # <<<<<<<<<<<<<<
@@ -13251,7 +13230,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
  */
               __pyx_t_38 = (__pyx_v_q_s + __pyx_v_o_q);
 
-              /* "operatorsHeatCurrent.pyx":801
+              /* "operatorsHeatCurrent.pyx":800
  *                         for o_i in range(i_norbs):
  *                             for o_j in range(j_norbs):
  *                                 tmp += (bra[q_s+o_q].conjugate() *             # <<<<<<<<<<<<<<
@@ -13264,7 +13243,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
         }
       }
 
-      /* "operatorsHeatCurrent.pyx":810
+      /* "operatorsHeatCurrent.pyx":809
  *                                        ket[q_s+o_q])
  *                 # save result
  *                 out_data[iq_pos] = 1j * tmp             # <<<<<<<<<<<<<<
@@ -13275,7 +13254,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
       *((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_out_data.data + __pyx_t_39 * __pyx_v_out_data.strides[0]) )) = __Pyx_c_prod_double(__pyx_t_double_complex_from_parts(0, 1.0), __pyx_v_tmp);
     }
 
-    /* "operatorsHeatCurrent.pyx":777
+    /* "operatorsHeatCurrent.pyx":776
  *         if op == ACT:
  *             raise NotImplementedError()
  *         elif op == MAT_ELS:             # <<<<<<<<<<<<<<
@@ -13286,7 +13265,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
     default: break;
   }
 
-  /* "operatorsHeatCurrent.pyx":756
+  /* "operatorsHeatCurrent.pyx":755
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -13311,7 +13290,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_4_operate(st
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":727
+/* "operatorsHeatCurrent.pyx":726
  *     """
  * 
  *     cdef public gint[:] auxwhere_list, wherepos_neigh, auxpos_list             # <<<<<<<<<<<<<<
@@ -13338,8 +13317,8 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_13auxwhere_l
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 727, __pyx_L1_error)}
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->auxwhere_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 727, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->auxwhere_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 726, __pyx_L1_error)}
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->auxwhere_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 726, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -13374,7 +13353,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_13auxwhere_list_2_
   __Pyx_RefNannyDeclarations
   __Pyx_memviewslice __pyx_t_1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 727, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 726, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->auxwhere_list, 0);
   __pyx_v_self->auxwhere_list = __pyx_t_1;
   __pyx_t_1.memview = NULL;
@@ -13411,8 +13390,8 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_14wherepos_n
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 727, __pyx_L1_error)}
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->wherepos_neigh, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 727, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->wherepos_neigh.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 726, __pyx_L1_error)}
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->wherepos_neigh, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 726, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -13447,7 +13426,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_14wherepos_neigh_2
   __Pyx_RefNannyDeclarations
   __Pyx_memviewslice __pyx_t_1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 727, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 726, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->wherepos_neigh, 0);
   __pyx_v_self->wherepos_neigh = __pyx_t_1;
   __pyx_t_1.memview = NULL;
@@ -13484,8 +13463,8 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_11auxpos_lis
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 727, __pyx_L1_error)}
-  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->auxpos_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 727, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->auxpos_list.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 726, __pyx_L1_error)}
+  __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->auxpos_list, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 726, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -13520,7 +13499,7 @@ static int __pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_11auxpos_list_2__s
   __Pyx_RefNannyDeclarations
   __Pyx_memviewslice __pyx_t_1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 727, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_ds_nn_gint(__pyx_v_value, PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 726, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_self->auxpos_list, 0);
   __pyx_v_self->auxpos_list = __pyx_t_1;
   __pyx_t_1.memview = NULL;
@@ -13919,7 +13898,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_16offEnergyCurrent_8__setstate_
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":867
+/* "operatorsHeatCurrent.pyx":866
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, onsite=1, arbit_hop_func=0, where=None,             # <<<<<<<<<<<<<<
@@ -13946,7 +13925,7 @@ static int __pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_1__init__(PyObj
     values[2] = ((PyObject *)__pyx_int_0);
     values[3] = ((PyObject *)Py_None);
 
-    /* "operatorsHeatCurrent.pyx":868
+    /* "operatorsHeatCurrent.pyx":867
  *     @cython.embedsignature
  *     def __init__(self, syst, onsite=1, arbit_hop_func=0, where=None,
  *                  *, check_hermiticity=False, sum=True):             # <<<<<<<<<<<<<<
@@ -14002,7 +13981,7 @@ static int __pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_1__init__(PyObj
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 867, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 866, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -14026,7 +14005,7 @@ static int __pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_1__init__(PyObj
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 867, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 866, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.CurrentWithArbitHop.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -14034,7 +14013,7 @@ static int __pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_1__init__(PyObj
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(((struct __pyx_obj_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self), __pyx_v_syst, __pyx_v_onsite, __pyx_v_arbit_hop_func, __pyx_v_where, __pyx_v_check_hermiticity, __pyx_v_sum);
 
-  /* "operatorsHeatCurrent.pyx":867
+  /* "operatorsHeatCurrent.pyx":866
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, onsite=1, arbit_hop_func=0, where=None,             # <<<<<<<<<<<<<<
@@ -14059,19 +14038,19 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   __Pyx_RefNannySetupContext("__init__", 0);
   __Pyx_INCREF(__pyx_v_where);
 
-  /* "operatorsHeatCurrent.pyx":869
+  /* "operatorsHeatCurrent.pyx":868
  *     def __init__(self, syst, onsite=1, arbit_hop_func=0, where=None,
  *                  *, check_hermiticity=False, sum=True):
  *         where = kwant.operator._normalize_hopping_where(syst, where)             # <<<<<<<<<<<<<<
  *         assert callable(arbit_hop_func)
  *         self.arbit_hop_func = arbit_hop_func
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 869, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_kwant); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 868, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_operator); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 869, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_operator); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 868, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_normalize_hopping_where); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 869, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_normalize_hopping_where); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 868, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -14089,7 +14068,7 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_syst, __pyx_v_where};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 869, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 868, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -14097,13 +14076,13 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_syst, __pyx_v_where};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 869, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 868, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 869, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 868, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_3) {
       __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3); __pyx_t_3 = NULL;
@@ -14114,7 +14093,7 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
     __Pyx_INCREF(__pyx_v_where);
     __Pyx_GIVEREF(__pyx_v_where);
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_v_where);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 869, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 868, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
@@ -14122,7 +14101,7 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   __Pyx_DECREF_SET(__pyx_v_where, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":870
+  /* "operatorsHeatCurrent.pyx":869
  *                  *, check_hermiticity=False, sum=True):
  *         where = kwant.operator._normalize_hopping_where(syst, where)
  *         assert callable(arbit_hop_func)             # <<<<<<<<<<<<<<
@@ -14131,15 +14110,15 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_6 = __Pyx_PyCallable_Check(__pyx_v_arbit_hop_func); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 870, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyCallable_Check(__pyx_v_arbit_hop_func); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 869, __pyx_L1_error)
     if (unlikely(!(__pyx_t_6 != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 870, __pyx_L1_error)
+      __PYX_ERR(0, 869, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":871
+  /* "operatorsHeatCurrent.pyx":870
  *         where = kwant.operator._normalize_hopping_where(syst, where)
  *         assert callable(arbit_hop_func)
  *         self.arbit_hop_func = arbit_hop_func             # <<<<<<<<<<<<<<
@@ -14152,14 +14131,14 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   __Pyx_DECREF(__pyx_v_self->arbit_hop_func);
   __pyx_v_self->arbit_hop_func = __pyx_v_arbit_hop_func;
 
-  /* "operatorsHeatCurrent.pyx":872
+  /* "operatorsHeatCurrent.pyx":871
  *         assert callable(arbit_hop_func)
  *         self.arbit_hop_func = arbit_hop_func
  *         super().__init__(syst, onsite, where,             # <<<<<<<<<<<<<<
  *                          check_hermiticity=check_hermiticity, sum=sum)
  * 
  */
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 872, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 871, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_CurrentWithArbitHop));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_CurrentWithArbitHop));
@@ -14167,13 +14146,13 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_self));
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 872, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 871, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 872, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_init); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 871, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 872, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 871, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_v_syst);
   __Pyx_GIVEREF(__pyx_v_syst);
@@ -14185,33 +14164,33 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   __Pyx_GIVEREF(__pyx_v_where);
   PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_v_where);
 
-  /* "operatorsHeatCurrent.pyx":873
+  /* "operatorsHeatCurrent.pyx":872
  *         self.arbit_hop_func = arbit_hop_func
  *         super().__init__(syst, onsite, where,
  *                          check_hermiticity=check_hermiticity, sum=sum)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 873, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 872, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_check_hermiticity, __pyx_v_check_hermiticity) < 0) __PYX_ERR(0, 873, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_sum, __pyx_v_sum) < 0) __PYX_ERR(0, 873, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_check_hermiticity, __pyx_v_check_hermiticity) < 0) __PYX_ERR(0, 872, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_sum, __pyx_v_sum) < 0) __PYX_ERR(0, 872, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":872
+  /* "operatorsHeatCurrent.pyx":871
  *         assert callable(arbit_hop_func)
  *         self.arbit_hop_func = arbit_hop_func
  *         super().__init__(syst, onsite, where,             # <<<<<<<<<<<<<<
  *                          check_hermiticity=check_hermiticity, sum=sum)
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 872, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 871, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "operatorsHeatCurrent.pyx":867
+  /* "operatorsHeatCurrent.pyx":866
  * 
  *     @cython.embedsignature
  *     def __init__(self, syst, onsite=1, arbit_hop_func=0, where=None,             # <<<<<<<<<<<<<<
@@ -14235,7 +14214,7 @@ static int __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop___init__(struct
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":897
+/* "operatorsHeatCurrent.pyx":896
  *          #     params = {pn: params[pn] for pn in required}
  * 
  *         def get_arbit_hop_func(a, a_norbs, b, b_norbs):             # <<<<<<<<<<<<<<
@@ -14281,23 +14260,23 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_a_norbs)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 1); __PYX_ERR(0, 897, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 1); __PYX_ERR(0, 896, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 2); __PYX_ERR(0, 897, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 2); __PYX_ERR(0, 896, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_b_norbs)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 3); __PYX_ERR(0, 897, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, 3); __PYX_ERR(0, 896, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "get_arbit_hop_func") < 0)) __PYX_ERR(0, 897, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "get_arbit_hop_func") < 0)) __PYX_ERR(0, 896, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 4) {
       goto __pyx_L5_argtuple_error;
@@ -14314,7 +14293,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 897, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("get_arbit_hop_func", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 896, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.CurrentWithArbitHop._eval_arbit_hop_func.get_arbit_hop_func", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -14348,16 +14327,16 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   __pyx_outer_scope = (struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func *) __Pyx_CyFunction_GetClosure(__pyx_self);
   __pyx_cur_scope = __pyx_outer_scope;
 
-  /* "operatorsHeatCurrent.pyx":898
+  /* "operatorsHeatCurrent.pyx":897
  * 
  *         def get_arbit_hop_func(a, a_norbs, b, b_norbs):
  *             mat = matrix(arbit_hop_func(a, b, *args, params=params), complex)             # <<<<<<<<<<<<<<
  *             # kwant.operator.
  *             _check_ham(mat, hamiltonian, args, params,
  */
-  if (unlikely(!__pyx_cur_scope->__pyx_v_matrix)) { __Pyx_RaiseClosureNameError("matrix"); __PYX_ERR(0, 898, __pyx_L1_error) }
-  if (unlikely(!__pyx_cur_scope->__pyx_v_arbit_hop_func)) { __Pyx_RaiseClosureNameError("arbit_hop_func"); __PYX_ERR(0, 898, __pyx_L1_error) }
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 898, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_matrix)) { __Pyx_RaiseClosureNameError("matrix"); __PYX_ERR(0, 897, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_v_arbit_hop_func)) { __Pyx_RaiseClosureNameError("arbit_hop_func"); __PYX_ERR(0, 897, __pyx_L1_error) }
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_v_a);
   __Pyx_GIVEREF(__pyx_v_a);
@@ -14365,18 +14344,18 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   __Pyx_INCREF(__pyx_v_b);
   __Pyx_GIVEREF(__pyx_v_b);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_b);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_args)) { __Pyx_RaiseClosureNameError("args"); __PYX_ERR(0, 898, __pyx_L1_error) }
-  __pyx_t_3 = __Pyx_PySequence_Tuple(__pyx_cur_scope->__pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 898, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_args)) { __Pyx_RaiseClosureNameError("args"); __PYX_ERR(0, 897, __pyx_L1_error) }
+  __pyx_t_3 = __Pyx_PySequence_Tuple(__pyx_cur_scope->__pyx_v_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 898, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Add(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 898, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_params)) { __Pyx_RaiseClosureNameError("params"); __PYX_ERR(0, 898, __pyx_L1_error) }
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_cur_scope->__pyx_v_params) < 0) __PYX_ERR(0, 898, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_cur_scope->__pyx_v_arbit_hop_func, __pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 898, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_params)) { __Pyx_RaiseClosureNameError("params"); __PYX_ERR(0, 897, __pyx_L1_error) }
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_cur_scope->__pyx_v_params) < 0) __PYX_ERR(0, 897, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_cur_scope->__pyx_v_arbit_hop_func, __pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14396,7 +14375,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_t_2, ((PyObject *)(&PyComplex_Type))};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 898, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 897, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14405,14 +14384,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_t_2, ((PyObject *)(&PyComplex_Type))};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 898, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 897, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   } else
   #endif
   {
-    __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 898, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 897, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -14423,7 +14402,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
     __Pyx_GIVEREF(((PyObject *)(&PyComplex_Type)));
     PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_5, ((PyObject *)(&PyComplex_Type)));
     __pyx_t_2 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 898, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 897, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
@@ -14431,44 +14410,44 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   __pyx_v_mat = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":900
+  /* "operatorsHeatCurrent.pyx":899
  *             mat = matrix(arbit_hop_func(a, b, *args, params=params), complex)
  *             # kwant.operator.
  *             _check_ham(mat, hamiltonian, args, params,             # <<<<<<<<<<<<<<
  *                        a, a_norbs, b, b_norbs, check_hermiticity)
  *             return mat
  */
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_mat, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 900, __pyx_L1_error)
-  if (unlikely(!__pyx_cur_scope->__pyx_v_hamiltonian)) { __Pyx_RaiseClosureNameError("hamiltonian"); __PYX_ERR(0, 900, __pyx_L1_error) }
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_mat, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 899, __pyx_L1_error)
+  if (unlikely(!__pyx_cur_scope->__pyx_v_hamiltonian)) { __Pyx_RaiseClosureNameError("hamiltonian"); __PYX_ERR(0, 899, __pyx_L1_error) }
   __pyx_t_1 = __pyx_cur_scope->__pyx_v_hamiltonian;
   __Pyx_INCREF(__pyx_t_1);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_args)) { __Pyx_RaiseClosureNameError("args"); __PYX_ERR(0, 900, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_v_args)) { __Pyx_RaiseClosureNameError("args"); __PYX_ERR(0, 899, __pyx_L1_error) }
   __pyx_t_3 = __pyx_cur_scope->__pyx_v_args;
   __Pyx_INCREF(__pyx_t_3);
-  if (unlikely(!__pyx_cur_scope->__pyx_v_params)) { __Pyx_RaiseClosureNameError("params"); __PYX_ERR(0, 900, __pyx_L1_error) }
+  if (unlikely(!__pyx_cur_scope->__pyx_v_params)) { __Pyx_RaiseClosureNameError("params"); __PYX_ERR(0, 899, __pyx_L1_error) }
   __pyx_t_6 = __pyx_cur_scope->__pyx_v_params;
   __Pyx_INCREF(__pyx_t_6);
 
-  /* "operatorsHeatCurrent.pyx":901
+  /* "operatorsHeatCurrent.pyx":900
  *             # kwant.operator.
  *             _check_ham(mat, hamiltonian, args, params,
  *                        a, a_norbs, b, b_norbs, check_hermiticity)             # <<<<<<<<<<<<<<
  *             return mat
  * 
  */
-  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_v_a); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 901, __pyx_L1_error)
-  __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_a_norbs); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 901, __pyx_L1_error)
-  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_b); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 901, __pyx_L1_error)
-  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_b_norbs); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 901, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_v_a); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 900, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_a_norbs); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 900, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_b); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 900, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_b_norbs); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 900, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":900
+  /* "operatorsHeatCurrent.pyx":899
  *             mat = matrix(arbit_hop_func(a, b, *args, params=params), complex)
  *             # kwant.operator.
  *             _check_ham(mat, hamiltonian, args, params,             # <<<<<<<<<<<<<<
  *                        a, a_norbs, b, b_norbs, check_hermiticity)
  *             return mat
  */
-  __pyx_t_11 = __pyx_f_20operatorsHeatCurrent__check_ham(__pyx_t_7, __pyx_t_1, __pyx_t_3, __pyx_t_6, __pyx_t_5, __pyx_t_8, __pyx_t_9, __pyx_t_10, __pyx_cur_scope->__pyx_v_check_hermiticity); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 900, __pyx_L1_error)
+  __pyx_t_11 = __pyx_f_20operatorsHeatCurrent__check_ham(__pyx_t_7, __pyx_t_1, __pyx_t_3, __pyx_t_6, __pyx_t_5, __pyx_t_8, __pyx_t_9, __pyx_t_10, __pyx_cur_scope->__pyx_v_check_hermiticity); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 899, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
@@ -14476,7 +14455,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "operatorsHeatCurrent.pyx":902
+  /* "operatorsHeatCurrent.pyx":901
  *             _check_ham(mat, hamiltonian, args, params,
  *                        a, a_norbs, b, b_norbs, check_hermiticity)
  *             return mat             # <<<<<<<<<<<<<<
@@ -14488,7 +14467,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   __pyx_r = __pyx_v_mat;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":897
+  /* "operatorsHeatCurrent.pyx":896
  *          #     params = {pn: params[pn] for pn in required}
  * 
  *         def get_arbit_hop_func(a, a_norbs, b, b_norbs):             # <<<<<<<<<<<<<<
@@ -14513,7 +14492,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_a
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":876
+/* "operatorsHeatCurrent.pyx":875
  * 
  * 
  *     cdef kwant.operator.BlockSparseMatrix _eval_arbit_hop_func(self, args, params):             # <<<<<<<<<<<<<<
@@ -14544,7 +14523,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   if (unlikely(!__pyx_cur_scope)) {
     __pyx_cur_scope = ((struct __pyx_obj_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func *)Py_None);
     __Pyx_INCREF(Py_None);
-    __PYX_ERR(0, 876, __pyx_L1_error)
+    __PYX_ERR(0, 875, __pyx_L1_error)
   } else {
     __Pyx_GOTREF(__pyx_cur_scope);
   }
@@ -14555,7 +14534,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_params);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_params);
 
-  /* "operatorsHeatCurrent.pyx":878
+  /* "operatorsHeatCurrent.pyx":877
  *     cdef kwant.operator.BlockSparseMatrix _eval_arbit_hop_func(self, args, params):
  *         """Evaluate the onsite matrices on all elements of `where`"""
  *         assert callable(self.arbit_hop_func)             # <<<<<<<<<<<<<<
@@ -14566,16 +14545,16 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   if (unlikely(!Py_OptimizeFlag)) {
     __pyx_t_1 = __pyx_v_self->arbit_hop_func;
     __Pyx_INCREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 878, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 877, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!(__pyx_t_2 != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 878, __pyx_L1_error)
+      __PYX_ERR(0, 877, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":879
+  /* "operatorsHeatCurrent.pyx":878
  *         """Evaluate the onsite matrices on all elements of `where`"""
  *         assert callable(self.arbit_hop_func)
  *         assert not (args and params)             # <<<<<<<<<<<<<<
@@ -14584,37 +14563,37 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(!Py_OptimizeFlag)) {
-    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_args); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 879, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_args); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 878, __pyx_L1_error)
     if (__pyx_t_3) {
     } else {
       __pyx_t_2 = __pyx_t_3;
       goto __pyx_L3_bool_binop_done;
     }
-    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_params); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 879, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_params); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 878, __pyx_L1_error)
     __pyx_t_2 = __pyx_t_3;
     __pyx_L3_bool_binop_done:;
     if (unlikely(!((!__pyx_t_2) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 879, __pyx_L1_error)
+      __PYX_ERR(0, 878, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":880
+  /* "operatorsHeatCurrent.pyx":879
  *         assert callable(self.arbit_hop_func)
  *         assert not (args and params)
  *         params = params or {}             # <<<<<<<<<<<<<<
  *         matrix = ta.matrix
  *         arbit_hop_func = self.arbit_hop_func
  */
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_params); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 880, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_cur_scope->__pyx_v_params); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 879, __pyx_L1_error)
   if (!__pyx_t_2) {
   } else {
     __Pyx_INCREF(__pyx_cur_scope->__pyx_v_params);
     __pyx_t_1 = __pyx_cur_scope->__pyx_v_params;
     goto __pyx_L5_bool_binop_done;
   }
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 880, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 879, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_t_4);
   __pyx_t_1 = __pyx_t_4;
@@ -14625,23 +14604,23 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __Pyx_GIVEREF(__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":881
+  /* "operatorsHeatCurrent.pyx":880
  *         assert not (args and params)
  *         params = params or {}
  *         matrix = ta.matrix             # <<<<<<<<<<<<<<
  *         arbit_hop_func = self.arbit_hop_func
  *         check_hermiticity = self.check_hermiticity
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ta); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 881, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_ta); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 880, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_matrix); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 881, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_matrix); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 880, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_cur_scope->__pyx_v_matrix = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":882
+  /* "operatorsHeatCurrent.pyx":881
  *         params = params or {}
  *         matrix = ta.matrix
  *         arbit_hop_func = self.arbit_hop_func             # <<<<<<<<<<<<<<
@@ -14654,7 +14633,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __pyx_cur_scope->__pyx_v_arbit_hop_func = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":883
+  /* "operatorsHeatCurrent.pyx":882
  *         matrix = ta.matrix
  *         arbit_hop_func = self.arbit_hop_func
  *         check_hermiticity = self.check_hermiticity             # <<<<<<<<<<<<<<
@@ -14664,51 +14643,51 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __pyx_t_5 = __pyx_v_self->__pyx_base.check_hermiticity;
   __pyx_cur_scope->__pyx_v_check_hermiticity = __pyx_t_5;
 
-  /* "operatorsHeatCurrent.pyx":884
+  /* "operatorsHeatCurrent.pyx":883
  *         arbit_hop_func = self.arbit_hop_func
  *         check_hermiticity = self.check_hermiticity
  *         hamiltonian = self.syst.hamiltonian             # <<<<<<<<<<<<<<
  * 
  *          #XXX: Checks for sanity of 'arbit_hop_func' are missing
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->__pyx_base.syst, __pyx_n_s_hamiltonian); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 884, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->__pyx_base.syst, __pyx_n_s_hamiltonian); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 883, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __pyx_cur_scope->__pyx_v_hamiltonian = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":897
+  /* "operatorsHeatCurrent.pyx":896
  *          #     params = {pn: params[pn] for pn in required}
  * 
  *         def get_arbit_hop_func(a, a_norbs, b, b_norbs):             # <<<<<<<<<<<<<<
  *             mat = matrix(arbit_hop_func(a, b, *args, params=params), complex)
  *             # kwant.operator.
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_arbit_hop_func_1get_arbit_hop_func, 0, __pyx_n_s_CurrentWithArbitHop__eval_arbit, ((PyObject*)__pyx_cur_scope), __pyx_n_s_operatorsHeatCurrent, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 897, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_19CurrentWithArbitHop_20_eval_arbit_hop_func_1get_arbit_hop_func, 0, __pyx_n_s_CurrentWithArbitHop__eval_arbit, ((PyObject*)__pyx_cur_scope), __pyx_n_s_operatorsHeatCurrent, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 896, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_v_get_arbit_hop_func = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":904
+  /* "operatorsHeatCurrent.pyx":903
  *             return mat
  * 
  *         offsets, norbs = kwant.operator._get_all_orbs(self.where, self._site_ranges)             # <<<<<<<<<<<<<<
  *         return kwant.operator.BlockSparseMatrix(self.where, offsets, norbs, get_arbit_hop_func)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_kwant); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 904, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_kwant); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 903, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_operator); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 904, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_operator); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 903, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get_all_orbs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 904, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_get_all_orbs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 903, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 904, __pyx_L1_error)}
-  __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base.where, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 904, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 903, __pyx_L1_error)}
+  __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base.where, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 903, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  if (unlikely(!__pyx_v_self->__pyx_base._site_ranges.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 904, __pyx_L1_error)}
-  __pyx_t_7 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base._site_ranges, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 904, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->__pyx_base._site_ranges.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 903, __pyx_L1_error)}
+  __pyx_t_7 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base._site_ranges, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 903, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_8 = NULL;
   __pyx_t_9 = 0;
@@ -14725,7 +14704,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_t_6, __pyx_t_7};
-    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -14735,7 +14714,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_t_6, __pyx_t_7};
-    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -14743,7 +14722,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   } else
   #endif
   {
-    __pyx_t_10 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_10 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     if (__pyx_t_8) {
       __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -14754,7 +14733,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
     PyTuple_SET_ITEM(__pyx_t_10, 1+__pyx_t_9, __pyx_t_7);
     __pyx_t_6 = 0;
     __pyx_t_7 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_10, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_10, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   }
@@ -14765,7 +14744,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
     if (unlikely(size != 2)) {
       if (size > 2) __Pyx_RaiseTooManyValuesError(2);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 904, __pyx_L1_error)
+      __PYX_ERR(0, 903, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -14778,15 +14757,15 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
     __Pyx_INCREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_t_10);
     #else
-    __pyx_t_1 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_1 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_10 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_10 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     #endif
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_7 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 904, __pyx_L1_error)
+    __pyx_t_7 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_11 = Py_TYPE(__pyx_t_7)->tp_iternext;
@@ -14794,7 +14773,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
     __Pyx_GOTREF(__pyx_t_1);
     index = 1; __pyx_t_10 = __pyx_t_11(__pyx_t_7); if (unlikely(!__pyx_t_10)) goto __pyx_L7_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_10);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_11(__pyx_t_7), 2) < 0) __PYX_ERR(0, 904, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_11(__pyx_t_7), 2) < 0) __PYX_ERR(0, 903, __pyx_L1_error)
     __pyx_t_11 = NULL;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     goto __pyx_L8_unpacking_done;
@@ -14802,7 +14781,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_11 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 904, __pyx_L1_error)
+    __PYX_ERR(0, 903, __pyx_L1_error)
     __pyx_L8_unpacking_done:;
   }
   __pyx_v_offsets = __pyx_t_1;
@@ -14810,7 +14789,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __pyx_v_norbs = __pyx_t_10;
   __pyx_t_10 = 0;
 
-  /* "operatorsHeatCurrent.pyx":905
+  /* "operatorsHeatCurrent.pyx":904
  * 
  *         offsets, norbs = kwant.operator._get_all_orbs(self.where, self._site_ranges)
  *         return kwant.operator.BlockSparseMatrix(self.where, offsets, norbs, get_arbit_hop_func)             # <<<<<<<<<<<<<<
@@ -14818,10 +14797,10 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
  * 
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
-  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 905, __pyx_L1_error)}
-  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base.where, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 905, __pyx_L1_error)
+  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 904, __pyx_L1_error)}
+  __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_self->__pyx_base.where, 2, (PyObject *(*)(char *)) __pyx_memview_get_nn_gint, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_gint, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 904, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_10 = PyTuple_New(4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 905, __pyx_L1_error)
+  __pyx_t_10 = PyTuple_New(4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 904, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_4);
@@ -14835,14 +14814,14 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   __Pyx_GIVEREF(__pyx_v_get_arbit_hop_func);
   PyTuple_SET_ITEM(__pyx_t_10, 3, __pyx_v_get_arbit_hop_func);
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5kwant_8operator_BlockSparseMatrix), __pyx_t_10, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 905, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5kwant_8operator_BlockSparseMatrix), __pyx_t_10, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 904, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_r = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_4);
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":876
+  /* "operatorsHeatCurrent.pyx":875
  * 
  * 
  *     cdef kwant.operator.BlockSparseMatrix _eval_arbit_hop_func(self, args, params):             # <<<<<<<<<<<<<<
@@ -14870,7 +14849,7 @@ static struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *__pyx_f_20operatorsH
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":909
+/* "operatorsHeatCurrent.pyx":908
  * 
  *     @cython.embedsignature
  *     def bind(self, args=(), *, params=None):             # <<<<<<<<<<<<<<
@@ -14915,7 +14894,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_3bind(PyO
         if (value) { values[index] = value; kw_args--; }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "bind") < 0)) __PYX_ERR(0, 909, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "bind") < 0)) __PYX_ERR(0, 908, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -14930,7 +14909,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_3bind(PyO
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("bind", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 909, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("bind", 0, 0, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 908, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.CurrentWithArbitHop.bind", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -14953,14 +14932,14 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_2bind(str
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("bind", 0);
 
-  /* "operatorsHeatCurrent.pyx":915
+  /* "operatorsHeatCurrent.pyx":914
  *         arguments when subsequently called or when using the ``act`` method.
  *         """
  *         q = super().bind(args, params=params)             # <<<<<<<<<<<<<<
  *         q._bound_arbit_hop_func = self._eval_arbit_hop_func(args, params)
  *         return q
  */
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_CurrentWithArbitHop));
   __Pyx_GIVEREF(((PyObject *)__pyx_ptype_20operatorsHeatCurrent_CurrentWithArbitHop));
@@ -14968,21 +14947,21 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_2bind(str
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
   PyTuple_SET_ITEM(__pyx_t_1, 1, ((PyObject *)__pyx_v_self));
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_bind); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_bind); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_args);
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 915, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 915, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 915, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 914, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14990,19 +14969,19 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_2bind(str
   __pyx_v_q = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":916
+  /* "operatorsHeatCurrent.pyx":915
  *         """
  *         q = super().bind(args, params=params)
  *         q._bound_arbit_hop_func = self._eval_arbit_hop_func(args, params)             # <<<<<<<<<<<<<<
  *         return q
  * 
  */
-  __pyx_t_4 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->_eval_arbit_hop_func(__pyx_v_self, __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 916, __pyx_L1_error)
+  __pyx_t_4 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->_eval_arbit_hop_func(__pyx_v_self, __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 915, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_bound_arbit_hop_func, __pyx_t_4) < 0) __PYX_ERR(0, 916, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_q, __pyx_n_s_bound_arbit_hop_func, __pyx_t_4) < 0) __PYX_ERR(0, 915, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "operatorsHeatCurrent.pyx":917
+  /* "operatorsHeatCurrent.pyx":916
  *         q = super().bind(args, params=params)
  *         q._bound_arbit_hop_func = self._eval_arbit_hop_func(args, params)
  *         return q             # <<<<<<<<<<<<<<
@@ -15014,7 +14993,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_2bind(str
   __pyx_r = __pyx_v_q;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":909
+  /* "operatorsHeatCurrent.pyx":908
  * 
  *     @cython.embedsignature
  *     def bind(self, args=(), *, params=None):             # <<<<<<<<<<<<<<
@@ -15037,7 +15016,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_2bind(str
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":921
+/* "operatorsHeatCurrent.pyx":920
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -15061,7 +15040,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_5_operate
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_out_data,&__pyx_n_s_bra,&__pyx_n_s_ket,&__pyx_n_s_args,&__pyx_n_s_op,&__pyx_n_s_params,0};
     PyObject* values[6] = {0,0,0,0,0,0};
 
-    /* "operatorsHeatCurrent.pyx":922
+    /* "operatorsHeatCurrent.pyx":921
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,
  *                  args, operation op, *, params=None):             # <<<<<<<<<<<<<<
@@ -15095,25 +15074,25 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_5_operate
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_bra)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 1); __PYX_ERR(0, 921, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 1); __PYX_ERR(0, 920, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ket)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 2); __PYX_ERR(0, 921, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 2); __PYX_ERR(0, 920, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_args)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 3); __PYX_ERR(0, 921, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 3); __PYX_ERR(0, 920, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_op)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 4); __PYX_ERR(0, 921, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, 4); __PYX_ERR(0, 920, __pyx_L3_error)
         }
       }
       if (kw_args == 1) {
@@ -15122,7 +15101,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_5_operate
         if (value) { values[index] = value; kw_args--; }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_operate") < 0)) __PYX_ERR(0, 921, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_operate") < 0)) __PYX_ERR(0, 920, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 5) {
       goto __pyx_L5_argtuple_error;
@@ -15133,16 +15112,16 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_5_operate
       values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
       values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
     }
-    __pyx_v_out_data = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_out_data.memview)) __PYX_ERR(0, 921, __pyx_L3_error)
-    __pyx_v_bra = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_bra.memview)) __PYX_ERR(0, 921, __pyx_L3_error)
-    __pyx_v_ket = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_ket.memview)) __PYX_ERR(0, 921, __pyx_L3_error)
+    __pyx_v_out_data = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_out_data.memview)) __PYX_ERR(0, 920, __pyx_L3_error)
+    __pyx_v_bra = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_bra.memview)) __PYX_ERR(0, 920, __pyx_L3_error)
+    __pyx_v_ket = __Pyx_PyObject_to_MemoryviewSlice_ds___pyx_t_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_ket.memview)) __PYX_ERR(0, 920, __pyx_L3_error)
     __pyx_v_args = values[3];
-    __pyx_v_op = ((__pyx_t_20operatorsHeatCurrent_operation)__Pyx_PyInt_As___pyx_t_20operatorsHeatCurrent_operation(values[4])); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 922, __pyx_L3_error)
+    __pyx_v_op = ((__pyx_t_20operatorsHeatCurrent_operation)__Pyx_PyInt_As___pyx_t_20operatorsHeatCurrent_operation(values[4])); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 921, __pyx_L3_error)
     __pyx_v_params = values[5];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 921, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_operate", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 920, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("operatorsHeatCurrent.CurrentWithArbitHop._operate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -15150,7 +15129,7 @@ static PyObject *__pyx_pw_20operatorsHeatCurrent_19CurrentWithArbitHop_5_operate
   __pyx_L4_argument_unpacking_done:;
   __pyx_r = __pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate(((struct __pyx_obj_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self), __pyx_v_out_data, __pyx_v_bra, __pyx_v_ket, __pyx_v_args, __pyx_v_op, __pyx_v_params);
 
-  /* "operatorsHeatCurrent.pyx":921
+  /* "operatorsHeatCurrent.pyx":920
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -15213,7 +15192,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
   Py_ssize_t __pyx_t_30;
   __Pyx_RefNannySetupContext("_operate", 0);
 
-  /* "operatorsHeatCurrent.pyx":924
+  /* "operatorsHeatCurrent.pyx":923
  *                  args, operation op, *, params=None):
  *         # prepare onsite matrices and arbitrary hopping functions
  *         cdef int unique_onsite = not callable(self.onsite)             # <<<<<<<<<<<<<<
@@ -15222,11 +15201,11 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
   __pyx_t_1 = __pyx_v_self->__pyx_base.onsite;
   __Pyx_INCREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 924, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyCallable_Check(__pyx_t_1); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 923, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_unique_onsite = (!(__pyx_t_2 != 0));
 
-  /* "operatorsHeatCurrent.pyx":926
+  /* "operatorsHeatCurrent.pyx":925
  *         cdef int unique_onsite = not callable(self.onsite)
  *         cdef complex[:, :] _tmp_mat
  *         cdef complex *M_a = NULL             # <<<<<<<<<<<<<<
@@ -15235,7 +15214,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
   __pyx_v_M_a = NULL;
 
-  /* "operatorsHeatCurrent.pyx":927
+  /* "operatorsHeatCurrent.pyx":926
  *         cdef complex[:, :] _tmp_mat
  *         cdef complex *M_a = NULL
  *         cdef complex *hopfunc_ab = NULL             # <<<<<<<<<<<<<<
@@ -15244,7 +15223,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
   __pyx_v_hopfunc_ab = NULL;
 
-  /* "operatorsHeatCurrent.pyx":930
+  /* "operatorsHeatCurrent.pyx":929
  *         cdef kwant.operator.BlockSparseMatrix M_a_blocks, hopfunc_ab_blocks
  * 
  *         if unique_onsite:             # <<<<<<<<<<<<<<
@@ -15254,19 +15233,19 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
   __pyx_t_2 = (__pyx_v_unique_onsite != 0);
   if (__pyx_t_2) {
 
-    /* "operatorsHeatCurrent.pyx":931
+    /* "operatorsHeatCurrent.pyx":930
  * 
  *         if unique_onsite:
  *             _tmp_mat = self.onsite             # <<<<<<<<<<<<<<
  *             M_a = <complex*> &_tmp_mat[0, 0]
  *         elif self._bound_onsite:
  */
-    __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_self->__pyx_base.onsite, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 931, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_self->__pyx_base.onsite, PyBUF_WRITABLE); if (unlikely(!__pyx_t_3.memview)) __PYX_ERR(0, 930, __pyx_L1_error)
     __pyx_v__tmp_mat = __pyx_t_3;
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "operatorsHeatCurrent.pyx":932
+    /* "operatorsHeatCurrent.pyx":931
  *         if unique_onsite:
  *             _tmp_mat = self.onsite
  *             M_a = <complex*> &_tmp_mat[0, 0]             # <<<<<<<<<<<<<<
@@ -15277,7 +15256,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     __pyx_t_5 = 0;
     __pyx_v_M_a = ((__pyx_t_double_complex *)(&(*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v__tmp_mat.data + __pyx_t_4 * __pyx_v__tmp_mat.strides[0]) ) + __pyx_t_5 * __pyx_v__tmp_mat.strides[1]) )))));
 
-    /* "operatorsHeatCurrent.pyx":930
+    /* "operatorsHeatCurrent.pyx":929
  *         cdef kwant.operator.BlockSparseMatrix M_a_blocks, hopfunc_ab_blocks
  * 
  *         if unique_onsite:             # <<<<<<<<<<<<<<
@@ -15287,17 +15266,17 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     goto __pyx_L3;
   }
 
-  /* "operatorsHeatCurrent.pyx":933
+  /* "operatorsHeatCurrent.pyx":932
  *             _tmp_mat = self.onsite
  *             M_a = <complex*> &_tmp_mat[0, 0]
  *         elif self._bound_onsite:             # <<<<<<<<<<<<<<
  *             M_a_blocks = self._bound_onsite
  *         else:
  */
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->__pyx_base._bound_onsite)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 933, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->__pyx_base._bound_onsite)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 932, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "operatorsHeatCurrent.pyx":934
+    /* "operatorsHeatCurrent.pyx":933
  *             M_a = <complex*> &_tmp_mat[0, 0]
  *         elif self._bound_onsite:
  *             M_a_blocks = self._bound_onsite             # <<<<<<<<<<<<<<
@@ -15309,7 +15288,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     __pyx_v_M_a_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "operatorsHeatCurrent.pyx":933
+    /* "operatorsHeatCurrent.pyx":932
  *             _tmp_mat = self.onsite
  *             M_a = <complex*> &_tmp_mat[0, 0]
  *         elif self._bound_onsite:             # <<<<<<<<<<<<<<
@@ -15319,7 +15298,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     goto __pyx_L3;
   }
 
-  /* "operatorsHeatCurrent.pyx":936
+  /* "operatorsHeatCurrent.pyx":935
  *             M_a_blocks = self._bound_onsite
  *         else:
  *             M_a_blocks = self._eval_onsites(args, params)             # <<<<<<<<<<<<<<
@@ -15327,37 +15306,37 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  *         if self._bound_arbit_hop_func:
  */
   /*else*/ {
-    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_onsites(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 936, __pyx_L1_error)
+    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->__pyx_base._eval_onsites(((struct __pyx_obj_5kwant_8operator__LocalOperator *)__pyx_v_self), __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 935, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_M_a_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
   }
   __pyx_L3:;
 
-  /* "operatorsHeatCurrent.pyx":938
+  /* "operatorsHeatCurrent.pyx":937
  *             M_a_blocks = self._eval_onsites(args, params)
  * 
  *         if self._bound_arbit_hop_func:             # <<<<<<<<<<<<<<
  *             hopfunc_ab_blocks = self._bound_arbit_hop_func
  *         else:
  */
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_self->_bound_arbit_hop_func); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 938, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_self->_bound_arbit_hop_func); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 937, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "operatorsHeatCurrent.pyx":939
+    /* "operatorsHeatCurrent.pyx":938
  * 
  *         if self._bound_arbit_hop_func:
  *             hopfunc_ab_blocks = self._bound_arbit_hop_func             # <<<<<<<<<<<<<<
  *         else:
  *             hopfunc_ab_blocks = self._eval_arbit_hop_func(args, params)
  */
-    if (!(likely(((__pyx_v_self->_bound_arbit_hop_func) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self->_bound_arbit_hop_func, __pyx_ptype_5kwant_8operator_BlockSparseMatrix))))) __PYX_ERR(0, 939, __pyx_L1_error)
+    if (!(likely(((__pyx_v_self->_bound_arbit_hop_func) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self->_bound_arbit_hop_func, __pyx_ptype_5kwant_8operator_BlockSparseMatrix))))) __PYX_ERR(0, 938, __pyx_L1_error)
     __pyx_t_1 = __pyx_v_self->_bound_arbit_hop_func;
     __Pyx_INCREF(__pyx_t_1);
     __pyx_v_hopfunc_ab_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "operatorsHeatCurrent.pyx":938
+    /* "operatorsHeatCurrent.pyx":937
  *             M_a_blocks = self._eval_onsites(args, params)
  * 
  *         if self._bound_arbit_hop_func:             # <<<<<<<<<<<<<<
@@ -15367,7 +15346,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     goto __pyx_L4;
   }
 
-  /* "operatorsHeatCurrent.pyx":941
+  /* "operatorsHeatCurrent.pyx":940
  *             hopfunc_ab_blocks = self._bound_arbit_hop_func
  *         else:
  *             hopfunc_ab_blocks = self._eval_arbit_hop_func(args, params)             # <<<<<<<<<<<<<<
@@ -15375,75 +15354,75 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  *         # main loop
  */
   /*else*/ {
-    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->_eval_arbit_hop_func(__pyx_v_self, __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 941, __pyx_L1_error)
+    __pyx_t_1 = ((PyObject *)((struct __pyx_vtabstruct_20operatorsHeatCurrent_CurrentWithArbitHop *)__pyx_v_self->__pyx_base.__pyx_vtab)->_eval_arbit_hop_func(__pyx_v_self, __pyx_v_args, __pyx_v_params)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 940, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_hopfunc_ab_blocks = ((struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *)__pyx_t_1);
     __pyx_t_1 = 0;
   }
   __pyx_L4:;
 
-  /* "operatorsHeatCurrent.pyx":947
+  /* "operatorsHeatCurrent.pyx":946
  *         cdef gint i, j, k, w
  *         cdef complex tmp
  *         for w in range(self.where.shape[0]):             # <<<<<<<<<<<<<<
  *             ### get the next hopping's start orbitals and numbers of orbitals
  *             a_s = hopfunc_ab_blocks.block_offsets[w, 0]
  */
-  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 947, __pyx_L1_error)}
+  if (unlikely(!__pyx_v_self->__pyx_base.where.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 946, __pyx_L1_error)}
   __pyx_t_6 = (__pyx_v_self->__pyx_base.where.shape[0]);
   __pyx_t_7 = __pyx_t_6;
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_w = __pyx_t_8;
 
-    /* "operatorsHeatCurrent.pyx":949
+    /* "operatorsHeatCurrent.pyx":948
  *         for w in range(self.where.shape[0]):
  *             ### get the next hopping's start orbitals and numbers of orbitals
  *             a_s = hopfunc_ab_blocks.block_offsets[w, 0]             # <<<<<<<<<<<<<<
  *             b_s = hopfunc_ab_blocks.block_offsets[w, 1]
  *             a_norbs = hopfunc_ab_blocks.block_shapes[w, 0]
  */
-    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 949, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 948, __pyx_L1_error)}
     __pyx_t_9 = __pyx_v_w;
     __pyx_t_10 = 0;
     __pyx_v_a_s = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_hopfunc_ab_blocks->block_offsets.data + __pyx_t_9 * __pyx_v_hopfunc_ab_blocks->block_offsets.strides[0]) ) + __pyx_t_10 * __pyx_v_hopfunc_ab_blocks->block_offsets.strides[1]) )));
 
-    /* "operatorsHeatCurrent.pyx":950
+    /* "operatorsHeatCurrent.pyx":949
  *             ### get the next hopping's start orbitals and numbers of orbitals
  *             a_s = hopfunc_ab_blocks.block_offsets[w, 0]
  *             b_s = hopfunc_ab_blocks.block_offsets[w, 1]             # <<<<<<<<<<<<<<
  *             a_norbs = hopfunc_ab_blocks.block_shapes[w, 0]
  *             b_norbs = hopfunc_ab_blocks.block_shapes[w, 1]
  */
-    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 950, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_offsets.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 949, __pyx_L1_error)}
     __pyx_t_11 = __pyx_v_w;
     __pyx_t_12 = 1;
     __pyx_v_b_s = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_hopfunc_ab_blocks->block_offsets.data + __pyx_t_11 * __pyx_v_hopfunc_ab_blocks->block_offsets.strides[0]) ) + __pyx_t_12 * __pyx_v_hopfunc_ab_blocks->block_offsets.strides[1]) )));
 
-    /* "operatorsHeatCurrent.pyx":951
+    /* "operatorsHeatCurrent.pyx":950
  *             a_s = hopfunc_ab_blocks.block_offsets[w, 0]
  *             b_s = hopfunc_ab_blocks.block_offsets[w, 1]
  *             a_norbs = hopfunc_ab_blocks.block_shapes[w, 0]             # <<<<<<<<<<<<<<
  *             b_norbs = hopfunc_ab_blocks.block_shapes[w, 1]
  *             ### get the next onsite and hopfunc matrices
  */
-    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 951, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 950, __pyx_L1_error)}
     __pyx_t_13 = __pyx_v_w;
     __pyx_t_14 = 0;
     __pyx_v_a_norbs = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_hopfunc_ab_blocks->block_shapes.data + __pyx_t_13 * __pyx_v_hopfunc_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_14 * __pyx_v_hopfunc_ab_blocks->block_shapes.strides[1]) )));
 
-    /* "operatorsHeatCurrent.pyx":952
+    /* "operatorsHeatCurrent.pyx":951
  *             b_s = hopfunc_ab_blocks.block_offsets[w, 1]
  *             a_norbs = hopfunc_ab_blocks.block_shapes[w, 0]
  *             b_norbs = hopfunc_ab_blocks.block_shapes[w, 1]             # <<<<<<<<<<<<<<
  *             ### get the next onsite and hopfunc matrices
  *             hopfunc_ab = hopfunc_ab_blocks.get(w)
  */
-    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 952, __pyx_L1_error)}
+    if (unlikely(!__pyx_v_hopfunc_ab_blocks->block_shapes.memview)) {PyErr_SetString(PyExc_AttributeError,"Memoryview is not initialized");__PYX_ERR(0, 951, __pyx_L1_error)}
     __pyx_t_15 = __pyx_v_w;
     __pyx_t_16 = 1;
     __pyx_v_b_norbs = (*((gint *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_hopfunc_ab_blocks->block_shapes.data + __pyx_t_15 * __pyx_v_hopfunc_ab_blocks->block_shapes.strides[0]) ) + __pyx_t_16 * __pyx_v_hopfunc_ab_blocks->block_shapes.strides[1]) )));
 
-    /* "operatorsHeatCurrent.pyx":954
+    /* "operatorsHeatCurrent.pyx":953
  *             b_norbs = hopfunc_ab_blocks.block_shapes[w, 1]
  *             ### get the next onsite and hopfunc matrices
  *             hopfunc_ab = hopfunc_ab_blocks.get(w)             # <<<<<<<<<<<<<<
@@ -15452,7 +15431,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
     __pyx_v_hopfunc_ab = ((struct __pyx_vtabstruct_5kwant_8operator_BlockSparseMatrix *)__pyx_v_hopfunc_ab_blocks->__pyx_vtab)->get(__pyx_v_hopfunc_ab_blocks, __pyx_v_w);
 
-    /* "operatorsHeatCurrent.pyx":955
+    /* "operatorsHeatCurrent.pyx":954
  *             ### get the next onsite and hopfunc matrices
  *             hopfunc_ab = hopfunc_ab_blocks.get(w)
  *             if not unique_onsite:             # <<<<<<<<<<<<<<
@@ -15462,17 +15441,17 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     __pyx_t_2 = ((!(__pyx_v_unique_onsite != 0)) != 0);
     if (__pyx_t_2) {
 
-      /* "operatorsHeatCurrent.pyx":956
+      /* "operatorsHeatCurrent.pyx":955
  *             hopfunc_ab = hopfunc_ab_blocks.get(w)
  *             if not unique_onsite:
  *                 M_a = M_a_blocks.get(w)             # <<<<<<<<<<<<<<
  *             ### do the actual calculation
  *             if op == MAT_ELS:
  */
-      if (unlikely(!__pyx_v_M_a_blocks)) { __Pyx_RaiseUnboundLocalError("M_a_blocks"); __PYX_ERR(0, 956, __pyx_L1_error) }
+      if (unlikely(!__pyx_v_M_a_blocks)) { __Pyx_RaiseUnboundLocalError("M_a_blocks"); __PYX_ERR(0, 955, __pyx_L1_error) }
       __pyx_v_M_a = ((struct __pyx_vtabstruct_5kwant_8operator_BlockSparseMatrix *)__pyx_v_M_a_blocks->__pyx_vtab)->get(__pyx_v_M_a_blocks, __pyx_v_w);
 
-      /* "operatorsHeatCurrent.pyx":955
+      /* "operatorsHeatCurrent.pyx":954
  *             ### get the next onsite and hopfunc matrices
  *             hopfunc_ab = hopfunc_ab_blocks.get(w)
  *             if not unique_onsite:             # <<<<<<<<<<<<<<
@@ -15481,7 +15460,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
     }
 
-    /* "operatorsHeatCurrent.pyx":958
+    /* "operatorsHeatCurrent.pyx":957
  *                 M_a = M_a_blocks.get(w)
  *             ### do the actual calculation
  *             if op == MAT_ELS:             # <<<<<<<<<<<<<<
@@ -15491,7 +15470,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     switch (__pyx_v_op) {
       case __pyx_e_20operatorsHeatCurrent_MAT_ELS:
 
-      /* "operatorsHeatCurrent.pyx":959
+      /* "operatorsHeatCurrent.pyx":958
  *             ### do the actual calculation
  *             if op == MAT_ELS:
  *                 tmp = 0             # <<<<<<<<<<<<<<
@@ -15500,7 +15479,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
       __pyx_v_tmp = __pyx_t_double_complex_from_parts(0, 0);
 
-      /* "operatorsHeatCurrent.pyx":960
+      /* "operatorsHeatCurrent.pyx":959
  *             if op == MAT_ELS:
  *                 tmp = 0
  *                 for i in range(b_norbs):             # <<<<<<<<<<<<<<
@@ -15512,7 +15491,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
       for (__pyx_t_19 = 0; __pyx_t_19 < __pyx_t_18; __pyx_t_19+=1) {
         __pyx_v_i = __pyx_t_19;
 
-        /* "operatorsHeatCurrent.pyx":961
+        /* "operatorsHeatCurrent.pyx":960
  *                 tmp = 0
  *                 for i in range(b_norbs):
  *                     for j in range(a_norbs):             # <<<<<<<<<<<<<<
@@ -15524,7 +15503,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
         for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
           __pyx_v_j = __pyx_t_22;
 
-          /* "operatorsHeatCurrent.pyx":962
+          /* "operatorsHeatCurrent.pyx":961
  *                 for i in range(b_norbs):
  *                     for j in range(a_norbs):
  *                         for k in range(a_norbs):             # <<<<<<<<<<<<<<
@@ -15536,7 +15515,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
           for (__pyx_t_25 = 0; __pyx_t_25 < __pyx_t_24; __pyx_t_25+=1) {
             __pyx_v_k = __pyx_t_25;
 
-            /* "operatorsHeatCurrent.pyx":963
+            /* "operatorsHeatCurrent.pyx":962
  *                     for j in range(a_norbs):
  *                         for k in range(a_norbs):
  *                             tmp += (bra[b_s + i].conjugate() *             # <<<<<<<<<<<<<<
@@ -15545,7 +15524,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
             __pyx_t_26 = (__pyx_v_b_s + __pyx_v_i);
 
-            /* "operatorsHeatCurrent.pyx":965
+            /* "operatorsHeatCurrent.pyx":964
  *                             tmp += (bra[b_s + i].conjugate() *
  *                                     hopfunc_ab[j * b_norbs + i].conjugate() *
  *                                     M_a[j * a_norbs + k] * ket[a_s + k]             # <<<<<<<<<<<<<<
@@ -15554,7 +15533,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
             __pyx_t_27 = (__pyx_v_a_s + __pyx_v_k);
 
-            /* "operatorsHeatCurrent.pyx":966
+            /* "operatorsHeatCurrent.pyx":965
  *                                     hopfunc_ab[j * b_norbs + i].conjugate() *
  *                                     M_a[j * a_norbs + k] * ket[a_s + k]
  *                                    + bra[a_s + j].conjugate() *             # <<<<<<<<<<<<<<
@@ -15563,7 +15542,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
             __pyx_t_28 = (__pyx_v_a_s + __pyx_v_j);
 
-            /* "operatorsHeatCurrent.pyx":968
+            /* "operatorsHeatCurrent.pyx":967
  *                                    + bra[a_s + j].conjugate() *
  *                                     M_a[j * a_norbs + k] *
  *                                     hopfunc_ab[k * b_norbs + i] * ket[b_s + i])             # <<<<<<<<<<<<<<
@@ -15572,7 +15551,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
  */
             __pyx_t_29 = (__pyx_v_b_s + __pyx_v_i);
 
-            /* "operatorsHeatCurrent.pyx":963
+            /* "operatorsHeatCurrent.pyx":962
  *                     for j in range(a_norbs):
  *                         for k in range(a_norbs):
  *                             tmp += (bra[b_s + i].conjugate() *             # <<<<<<<<<<<<<<
@@ -15584,7 +15563,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
         }
       }
 
-      /* "operatorsHeatCurrent.pyx":969
+      /* "operatorsHeatCurrent.pyx":968
  *                                     M_a[j * a_norbs + k] *
  *                                     hopfunc_ab[k * b_norbs + i] * ket[b_s + i])
  *                 out_data[w] = tmp             # <<<<<<<<<<<<<<
@@ -15594,7 +15573,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
       __pyx_t_30 = __pyx_v_w;
       *((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_out_data.data + __pyx_t_30 * __pyx_v_out_data.strides[0]) )) = __pyx_v_tmp;
 
-      /* "operatorsHeatCurrent.pyx":958
+      /* "operatorsHeatCurrent.pyx":957
  *                 M_a = M_a_blocks.get(w)
  *             ### do the actual calculation
  *             if op == MAT_ELS:             # <<<<<<<<<<<<<<
@@ -15604,20 +15583,20 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
       break;
       case __pyx_e_20operatorsHeatCurrent_ACT:
 
-      /* "operatorsHeatCurrent.pyx":971
+      /* "operatorsHeatCurrent.pyx":970
  *                 out_data[w] = tmp
  *             elif op == ACT:
  *                 raise NotImplementedError()             # <<<<<<<<<<<<<<
  *                 # for i in range(b_norbs):
  *                 #     for j in range(a_norbs):
  */
-      __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 971, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 970, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_Raise(__pyx_t_1, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __PYX_ERR(0, 971, __pyx_L1_error)
+      __PYX_ERR(0, 970, __pyx_L1_error)
 
-      /* "operatorsHeatCurrent.pyx":970
+      /* "operatorsHeatCurrent.pyx":969
  *                                     hopfunc_ab[k * b_norbs + i] * ket[b_s + i])
  *                 out_data[w] = tmp
  *             elif op == ACT:             # <<<<<<<<<<<<<<
@@ -15629,7 +15608,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
     }
   }
 
-  /* "operatorsHeatCurrent.pyx":921
+  /* "operatorsHeatCurrent.pyx":920
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _operate(self, complex[:] out_data, complex[:] bra, complex[:] ket,             # <<<<<<<<<<<<<<
@@ -15657,7 +15636,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_4_operate
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":864
+/* "operatorsHeatCurrent.pyx":863
  *     """
  * 
  *     cdef public object arbit_hop_func, _bound_arbit_hop_func             # <<<<<<<<<<<<<<
@@ -16216,7 +16195,7 @@ static PyObject *__pyx_pf_20operatorsHeatCurrent_19CurrentWithArbitHop_8__setsta
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":1102
+/* "operatorsHeatCurrent.pyx":1101
  * 
  * 
  * cdef int _check_ham(complex[:, :] H, ham, args, params,             # <<<<<<<<<<<<<<
@@ -16240,7 +16219,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
   __Pyx_memviewslice __pyx_t_10 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_RefNannySetupContext("_check_ham", 0);
 
-  /* "operatorsHeatCurrent.pyx":1106
+  /* "operatorsHeatCurrent.pyx":1105
  *                     int check_hermiticity) except -1:
  *     "Check Hamiltonian matrix for correct shape and hermiticity."
  *     if H.shape[0] != a_norbs and H.shape[1] != b_norbs:             # <<<<<<<<<<<<<<
@@ -16258,24 +16237,24 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "operatorsHeatCurrent.pyx":1107
+    /* "operatorsHeatCurrent.pyx":1106
  *     "Check Hamiltonian matrix for correct shape and hermiticity."
  *     if H.shape[0] != a_norbs and H.shape[1] != b_norbs:
  *         raise UserCodeError(kwant.operator._shape_msg.format('Hamiltonian'))             # <<<<<<<<<<<<<<
  *     if check_hermiticity:
  *         # call the "partner" element if we are not on the diagonal
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_UserCodeError); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_UserCodeError); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_kwant); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_kwant); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_operator); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_operator); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_shape_msg); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_shape_msg); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_t_6 = NULL;
@@ -16290,7 +16269,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
     }
     __pyx_t_5 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_n_s_Hamiltonian) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_n_s_Hamiltonian);
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_7 = NULL;
@@ -16306,14 +16285,14 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
     __pyx_t_3 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_7, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1107, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 1107, __pyx_L1_error)
+    __PYX_ERR(0, 1106, __pyx_L1_error)
 
-    /* "operatorsHeatCurrent.pyx":1106
+    /* "operatorsHeatCurrent.pyx":1105
  *                     int check_hermiticity) except -1:
  *     "Check Hamiltonian matrix for correct shape and hermiticity."
  *     if H.shape[0] != a_norbs and H.shape[1] != b_norbs:             # <<<<<<<<<<<<<<
@@ -16322,7 +16301,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
  */
   }
 
-  /* "operatorsHeatCurrent.pyx":1108
+  /* "operatorsHeatCurrent.pyx":1107
  *     if H.shape[0] != a_norbs and H.shape[1] != b_norbs:
  *         raise UserCodeError(kwant.operator._shape_msg.format('Hamiltonian'))
  *     if check_hermiticity:             # <<<<<<<<<<<<<<
@@ -16332,7 +16311,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
   __pyx_t_1 = (__pyx_v_check_hermiticity != 0);
   if (__pyx_t_1) {
 
-    /* "operatorsHeatCurrent.pyx":1110
+    /* "operatorsHeatCurrent.pyx":1109
  *     if check_hermiticity:
  *         # call the "partner" element if we are not on the diagonal
  *         H_conj = H if a == b else ta.matrix(ham(b, a, *args, params=params),             # <<<<<<<<<<<<<<
@@ -16340,21 +16319,21 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
  *         if not _is_herm_conj(H_conj, H):
  */
     if (((__pyx_v_a == __pyx_v_b) != 0)) {
-      __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_H, 2, (PyObject *(*)(char *)) __pyx_memview_get___pyx_t_double_complex, (int (*)(char *, PyObject *)) __pyx_memview_set___pyx_t_double_complex, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_v_H, 2, (PyObject *(*)(char *)) __pyx_memview_get___pyx_t_double_complex, (int (*)(char *, PyObject *)) __pyx_memview_set___pyx_t_double_complex, 0);; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_3 = __pyx_t_4;
       __pyx_t_4 = 0;
     } else {
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_ta); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_ta); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_matrix); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_matrix); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_a); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_a); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_GIVEREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_5);
@@ -16362,21 +16341,21 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
       PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_6);
       __pyx_t_5 = 0;
       __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PySequence_Tuple(__pyx_v_args); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PySequence_Tuple(__pyx_v_args); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = PyNumber_Add(__pyx_t_8, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_Add(__pyx_t_8, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 1110, __pyx_L1_error)
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_v_ham, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1110, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_params, __pyx_v_params) < 0) __PYX_ERR(0, 1109, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_v_ham, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1109, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "operatorsHeatCurrent.pyx":1111
+      /* "operatorsHeatCurrent.pyx":1110
  *         # call the "partner" element if we are not on the diagonal
  *         H_conj = H if a == b else ta.matrix(ham(b, a, *args, params=params),
  *                                                 complex)             # <<<<<<<<<<<<<<
@@ -16398,7 +16377,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_7)) {
         PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_8, ((PyObject *)(&PyComplex_Type))};
-        __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1110, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1109, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -16407,14 +16386,14 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_7)) {
         PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_8, ((PyObject *)(&PyComplex_Type))};
-        __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1110, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_9, 2+__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1109, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       } else
       #endif
       {
-        __pyx_t_5 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1110, __pyx_L1_error)
+        __pyx_t_5 = PyTuple_New(2+__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         if (__pyx_t_6) {
           __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -16425,7 +16404,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
         __Pyx_GIVEREF(((PyObject *)(&PyComplex_Type)));
         PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_9, ((PyObject *)(&PyComplex_Type)));
         __pyx_t_8 = 0;
-        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1110, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
@@ -16436,37 +16415,37 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
     __pyx_v_H_conj = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "operatorsHeatCurrent.pyx":1112
+    /* "operatorsHeatCurrent.pyx":1111
  *         H_conj = H if a == b else ta.matrix(ham(b, a, *args, params=params),
  *                                                 complex)
  *         if not _is_herm_conj(H_conj, H):             # <<<<<<<<<<<<<<
  *             raise ValueError(kwant.operator._herm_msg.format('Hamiltonian'))
  *     return 0
  */
-    __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_H_conj, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 1112, __pyx_L1_error)
-    __pyx_t_9 = __pyx_f_20operatorsHeatCurrent__is_herm_conj(__pyx_t_10, __pyx_v_H, NULL); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1112, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_dsds___pyx_t_double_complex(__pyx_v_H_conj, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 1111, __pyx_L1_error)
+    __pyx_t_9 = __pyx_f_20operatorsHeatCurrent__is_herm_conj(__pyx_t_10, __pyx_v_H, NULL); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 1111, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_t_10, 1);
     __pyx_t_10.memview = NULL;
     __pyx_t_10.data = NULL;
     __pyx_t_1 = ((!(__pyx_t_9 != 0)) != 0);
     if (unlikely(__pyx_t_1)) {
 
-      /* "operatorsHeatCurrent.pyx":1113
+      /* "operatorsHeatCurrent.pyx":1112
  *                                                 complex)
  *         if not _is_herm_conj(H_conj, H):
  *             raise ValueError(kwant.operator._herm_msg.format('Hamiltonian'))             # <<<<<<<<<<<<<<
  *     return 0
  * 
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_kwant); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_kwant); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_operator); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_operator); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_herm_msg); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_herm_msg); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_t_4 = NULL;
@@ -16481,17 +16460,17 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
       }
       __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_4, __pyx_n_s_Hamiltonian) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_n_s_Hamiltonian);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1113, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_Raise(__pyx_t_7, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __PYX_ERR(0, 1113, __pyx_L1_error)
+      __PYX_ERR(0, 1112, __pyx_L1_error)
 
-      /* "operatorsHeatCurrent.pyx":1112
+      /* "operatorsHeatCurrent.pyx":1111
  *         H_conj = H if a == b else ta.matrix(ham(b, a, *args, params=params),
  *                                                 complex)
  *         if not _is_herm_conj(H_conj, H):             # <<<<<<<<<<<<<<
@@ -16500,7 +16479,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
  */
     }
 
-    /* "operatorsHeatCurrent.pyx":1108
+    /* "operatorsHeatCurrent.pyx":1107
  *     if H.shape[0] != a_norbs and H.shape[1] != b_norbs:
  *         raise UserCodeError(kwant.operator._shape_msg.format('Hamiltonian'))
  *     if check_hermiticity:             # <<<<<<<<<<<<<<
@@ -16509,7 +16488,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
  */
   }
 
-  /* "operatorsHeatCurrent.pyx":1114
+  /* "operatorsHeatCurrent.pyx":1113
  *         if not _is_herm_conj(H_conj, H):
  *             raise ValueError(kwant.operator._herm_msg.format('Hamiltonian'))
  *     return 0             # <<<<<<<<<<<<<<
@@ -16519,7 +16498,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":1102
+  /* "operatorsHeatCurrent.pyx":1101
  * 
  * 
  * cdef int _check_ham(complex[:, :] H, ham, args, params,             # <<<<<<<<<<<<<<
@@ -16544,7 +16523,7 @@ static int __pyx_f_20operatorsHeatCurrent__check_ham(__Pyx_memviewslice __pyx_v_
   return __pyx_r;
 }
 
-/* "operatorsHeatCurrent.pyx":1119
+/* "operatorsHeatCurrent.pyx":1118
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef int _is_herm_conj(complex[:, :] a, complex[:, :] b,             # <<<<<<<<<<<<<<
@@ -16592,7 +16571,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
     }
   }
 
-  /* "operatorsHeatCurrent.pyx":1122
+  /* "operatorsHeatCurrent.pyx":1121
  *                        double atol=1e-300, double rtol=1e-13) except -1:
  *     "Return True if `a` is the Hermitian conjugate of `b`."
  *     assert a.shape[0] == b.shape[1]             # <<<<<<<<<<<<<<
@@ -16603,12 +16582,12 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
   if (unlikely(!Py_OptimizeFlag)) {
     if (unlikely(!(((__pyx_v_a.shape[0]) == (__pyx_v_b.shape[1])) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 1122, __pyx_L1_error)
+      __PYX_ERR(0, 1121, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":1123
+  /* "operatorsHeatCurrent.pyx":1122
  *     "Return True if `a` is the Hermitian conjugate of `b`."
  *     assert a.shape[0] == b.shape[1]
  *     assert a.shape[1] == b.shape[0]             # <<<<<<<<<<<<<<
@@ -16619,12 +16598,12 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
   if (unlikely(!Py_OptimizeFlag)) {
     if (unlikely(!(((__pyx_v_a.shape[1]) == (__pyx_v_b.shape[0])) != 0))) {
       PyErr_SetNone(PyExc_AssertionError);
-      __PYX_ERR(0, 1123, __pyx_L1_error)
+      __PYX_ERR(0, 1122, __pyx_L1_error)
     }
   }
   #endif
 
-  /* "operatorsHeatCurrent.pyx":1126
+  /* "operatorsHeatCurrent.pyx":1125
  * 
  *     # compute max(a)
  *     cdef double tmp, max_a = 0             # <<<<<<<<<<<<<<
@@ -16633,7 +16612,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
  */
   __pyx_v_max_a = 0.0;
 
-  /* "operatorsHeatCurrent.pyx":1128
+  /* "operatorsHeatCurrent.pyx":1127
  *     cdef double tmp, max_a = 0
  *     cdef int i, j
  *     for i in range(a.shape[0]):             # <<<<<<<<<<<<<<
@@ -16645,7 +16624,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "operatorsHeatCurrent.pyx":1129
+    /* "operatorsHeatCurrent.pyx":1128
  *     cdef int i, j
  *     for i in range(a.shape[0]):
  *         for j in range(a.shape[1]):             # <<<<<<<<<<<<<<
@@ -16657,7 +16636,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_j = __pyx_t_6;
 
-      /* "operatorsHeatCurrent.pyx":1130
+      /* "operatorsHeatCurrent.pyx":1129
  *     for i in range(a.shape[0]):
  *         for j in range(a.shape[1]):
  *             tmp = a[i, j].real * a[i, j].real + a[i, j].imag * a[i, j].imag             # <<<<<<<<<<<<<<
@@ -16674,7 +16653,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
       __pyx_t_14 = __pyx_v_j;
       __pyx_v_tmp = ((__Pyx_CREAL((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_a.data + __pyx_t_7 * __pyx_v_a.strides[0]) ) + __pyx_t_8 * __pyx_v_a.strides[1]) )))) * __Pyx_CREAL((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_a.data + __pyx_t_9 * __pyx_v_a.strides[0]) ) + __pyx_t_10 * __pyx_v_a.strides[1]) ))))) + (__Pyx_CIMAG((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_a.data + __pyx_t_11 * __pyx_v_a.strides[0]) ) + __pyx_t_12 * __pyx_v_a.strides[1]) )))) * __Pyx_CIMAG((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_a.data + __pyx_t_13 * __pyx_v_a.strides[0]) ) + __pyx_t_14 * __pyx_v_a.strides[1]) ))))));
 
-      /* "operatorsHeatCurrent.pyx":1131
+      /* "operatorsHeatCurrent.pyx":1130
  *         for j in range(a.shape[1]):
  *             tmp = a[i, j].real * a[i, j].real + a[i, j].imag * a[i, j].imag
  *             if tmp > max_a:             # <<<<<<<<<<<<<<
@@ -16684,7 +16663,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
       __pyx_t_15 = ((__pyx_v_tmp > __pyx_v_max_a) != 0);
       if (__pyx_t_15) {
 
-        /* "operatorsHeatCurrent.pyx":1132
+        /* "operatorsHeatCurrent.pyx":1131
  *             tmp = a[i, j].real * a[i, j].real + a[i, j].imag * a[i, j].imag
  *             if tmp > max_a:
  *                 max_a = tmp             # <<<<<<<<<<<<<<
@@ -16693,7 +16672,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
  */
         __pyx_v_max_a = __pyx_v_tmp;
 
-        /* "operatorsHeatCurrent.pyx":1131
+        /* "operatorsHeatCurrent.pyx":1130
  *         for j in range(a.shape[1]):
  *             tmp = a[i, j].real * a[i, j].real + a[i, j].imag * a[i, j].imag
  *             if tmp > max_a:             # <<<<<<<<<<<<<<
@@ -16704,7 +16683,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
     }
   }
 
-  /* "operatorsHeatCurrent.pyx":1133
+  /* "operatorsHeatCurrent.pyx":1132
  *             if tmp > max_a:
  *                 max_a = tmp
  *     max_a = math.sqrt(max_a)             # <<<<<<<<<<<<<<
@@ -16713,7 +16692,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
  */
   __pyx_v_max_a = sqrt(__pyx_v_max_a);
 
-  /* "operatorsHeatCurrent.pyx":1135
+  /* "operatorsHeatCurrent.pyx":1134
  *     max_a = math.sqrt(max_a)
  * 
  *     cdef double tol = rtol * max_a + atol             # <<<<<<<<<<<<<<
@@ -16722,7 +16701,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
  */
   __pyx_v_tol = ((__pyx_v_rtol * __pyx_v_max_a) + __pyx_v_atol);
 
-  /* "operatorsHeatCurrent.pyx":1137
+  /* "operatorsHeatCurrent.pyx":1136
  *     cdef double tol = rtol * max_a + atol
  *     cdef complex ctmp
  *     for i in range(a.shape[0]):             # <<<<<<<<<<<<<<
@@ -16734,7 +16713,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "operatorsHeatCurrent.pyx":1138
+    /* "operatorsHeatCurrent.pyx":1137
  *     cdef complex ctmp
  *     for i in range(a.shape[0]):
  *         for j in range(a.shape[1]):             # <<<<<<<<<<<<<<
@@ -16746,7 +16725,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_j = __pyx_t_6;
 
-      /* "operatorsHeatCurrent.pyx":1139
+      /* "operatorsHeatCurrent.pyx":1138
  *     for i in range(a.shape[0]):
  *         for j in range(a.shape[1]):
  *             ctmp = a[i, j] - b[j, i].conjugate()             # <<<<<<<<<<<<<<
@@ -16759,7 +16738,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
       __pyx_t_19 = __pyx_v_i;
       __pyx_v_ctmp = __Pyx_c_diff_double((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_a.data + __pyx_t_16 * __pyx_v_a.strides[0]) ) + __pyx_t_17 * __pyx_v_a.strides[1]) ))), __Pyx_c_conj_double((*((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_b.data + __pyx_t_18 * __pyx_v_b.strides[0]) ) + __pyx_t_19 * __pyx_v_b.strides[1]) )))));
 
-      /* "operatorsHeatCurrent.pyx":1140
+      /* "operatorsHeatCurrent.pyx":1139
  *         for j in range(a.shape[1]):
  *             ctmp = a[i, j] - b[j, i].conjugate()
  *             tmp = ctmp.real * ctmp.real + ctmp.imag * ctmp.imag             # <<<<<<<<<<<<<<
@@ -16768,7 +16747,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
  */
       __pyx_v_tmp = ((__Pyx_CREAL(__pyx_v_ctmp) * __Pyx_CREAL(__pyx_v_ctmp)) + (__Pyx_CIMAG(__pyx_v_ctmp) * __Pyx_CIMAG(__pyx_v_ctmp)));
 
-      /* "operatorsHeatCurrent.pyx":1141
+      /* "operatorsHeatCurrent.pyx":1140
  *             ctmp = a[i, j] - b[j, i].conjugate()
  *             tmp = ctmp.real * ctmp.real + ctmp.imag * ctmp.imag
  *             if tmp > tol:             # <<<<<<<<<<<<<<
@@ -16778,7 +16757,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
       __pyx_t_15 = ((__pyx_v_tmp > __pyx_v_tol) != 0);
       if (__pyx_t_15) {
 
-        /* "operatorsHeatCurrent.pyx":1142
+        /* "operatorsHeatCurrent.pyx":1141
  *             tmp = ctmp.real * ctmp.real + ctmp.imag * ctmp.imag
  *             if tmp > tol:
  *                 return False             # <<<<<<<<<<<<<<
@@ -16787,7 +16766,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
         __pyx_r = 0;
         goto __pyx_L0;
 
-        /* "operatorsHeatCurrent.pyx":1141
+        /* "operatorsHeatCurrent.pyx":1140
  *             ctmp = a[i, j] - b[j, i].conjugate()
  *             tmp = ctmp.real * ctmp.real + ctmp.imag * ctmp.imag
  *             if tmp > tol:             # <<<<<<<<<<<<<<
@@ -16798,7 +16777,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
     }
   }
 
-  /* "operatorsHeatCurrent.pyx":1143
+  /* "operatorsHeatCurrent.pyx":1142
  *             if tmp > tol:
  *                 return False
  *     return True             # <<<<<<<<<<<<<<
@@ -16806,7 +16785,7 @@ static int __pyx_f_20operatorsHeatCurrent__is_herm_conj(__Pyx_memviewslice __pyx
   __pyx_r = 1;
   goto __pyx_L0;
 
-  /* "operatorsHeatCurrent.pyx":1119
+  /* "operatorsHeatCurrent.pyx":1118
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef int _is_herm_conj(complex[:, :] a, complex[:, :] b,             # <<<<<<<<<<<<<<
@@ -33193,7 +33172,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_UserCodeError, __pyx_k_UserCodeError, sizeof(__pyx_k_UserCodeError), 0, 0, 1, 1},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
-  {&__pyx_n_s__59, __pyx_k__59, sizeof(__pyx_k__59), 0, 0, 1, 1},
   {&__pyx_n_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 1},
   {&__pyx_n_s_a_norbs, __pyx_k_a_norbs, sizeof(__pyx_k_a_norbs), 0, 0, 1, 1},
   {&__pyx_n_s_add_two_lead_unit_cells, __pyx_k_add_two_lead_unit_cells, sizeof(__pyx_k_add_two_lead_unit_cells), 0, 0, 1, 1},
@@ -33330,7 +33308,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_no_default___reduce___due_to_non, __pyx_k_no_default___reduce___due_to_non, sizeof(__pyx_k_no_default___reduce___due_to_non), 0, 0, 1, 0},
   {&__pyx_n_s_normalize_hopping_where, __pyx_k_normalize_hopping_where, sizeof(__pyx_k_normalize_hopping_where), 0, 0, 1, 1},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
-  {&__pyx_n_s_num_leadlead_hops, __pyx_k_num_leadlead_hops, sizeof(__pyx_k_num_leadlead_hops), 0, 0, 1, 1},
+  {&__pyx_n_s_num_leadscat_hops, __pyx_k_num_leadscat_hops, sizeof(__pyx_k_num_leadscat_hops), 0, 0, 1, 1},
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_n_s_obj, __pyx_k_obj, sizeof(__pyx_k_obj), 0, 0, 1, 1},
   {&__pyx_n_s_offEnergyCurrent, __pyx_k_offEnergyCurrent, sizeof(__pyx_k_offEnergyCurrent), 0, 0, 1, 1},
@@ -33446,10 +33424,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 471, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 533, __pyx_L1_error)
-  __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) __PYX_ERR(0, 738, __pyx_L1_error)
-  __pyx_builtin_NotImplementedError = __Pyx_GetBuiltinName(__pyx_n_s_NotImplementedError); if (!__pyx_builtin_NotImplementedError) __PYX_ERR(0, 776, __pyx_L1_error)
-  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 1113, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 610, __pyx_L1_error)
+  __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) __PYX_ERR(0, 737, __pyx_L1_error)
+  __pyx_builtin_NotImplementedError = __Pyx_GetBuiltinName(__pyx_n_s_NotImplementedError); if (!__pyx_builtin_NotImplementedError) __PYX_ERR(0, 775, __pyx_L1_error)
+  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 1112, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(1, 147, __pyx_L1_error)
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(1, 2, __pyx_L1_error)
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 399, __pyx_L1_error)
@@ -33500,17 +33478,17 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__6);
   __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARARGS|CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_onsiteHamil, 379, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) __PYX_ERR(0, 379, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":897
+  /* "operatorsHeatCurrent.pyx":896
  *          #     params = {pn: params[pn] for pn in required}
  * 
  *         def get_arbit_hop_func(a, a_norbs, b, b_norbs):             # <<<<<<<<<<<<<<
  *             mat = matrix(arbit_hop_func(a, b, *args, params=params), complex)
  *             # kwant.operator.
  */
-  __pyx_tuple__8 = PyTuple_Pack(5, __pyx_n_s_a, __pyx_n_s_a_norbs, __pyx_n_s_b, __pyx_n_s_b_norbs, __pyx_n_s_mat); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 897, __pyx_L1_error)
+  __pyx_tuple__8 = PyTuple_Pack(5, __pyx_n_s_a, __pyx_n_s_a_norbs, __pyx_n_s_b, __pyx_n_s_b_norbs, __pyx_n_s_mat); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 896, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
-  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(4, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_get_arbit_hop_func, 897, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 897, __pyx_L1_error)
+  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(4, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_get_arbit_hop_func, 896, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 896, __pyx_L1_error)
 
   /* "View.MemoryView":132
  * 
@@ -33904,48 +33882,48 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     r"""
  *     Creates where lists from the hopping-list 'in_where' for local energy current calculation.
  */
-  __pyx_tuple__60 = PyTuple_Pack(17, __pyx_n_s_fsyst, __pyx_n_s_in_where, __pyx_n_s_neigh_whereaux, __pyx_n_s_wherepos_neigh_stacked, __pyx_n_s_wherepos_neigh_dummy, __pyx_n_s_neigh_count, __pyx_n_s_offwhere, __pyx_n_s_i_idx, __pyx_n_s_hop, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s__59, __pyx_n_s_auxwhere_list, __pyx_n_s_wherepos_neigh_flat, __pyx_n_s_auxpos_list); if (unlikely(!__pyx_tuple__60)) __PYX_ERR(0, 481, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__60);
-  __Pyx_GIVEREF(__pyx_tuple__60);
-  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(2, 0, 17, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_fullwhere_lists_for_loca, 481, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) __PYX_ERR(0, 481, __pyx_L1_error)
+  __pyx_tuple__59 = PyTuple_Pack(16, __pyx_n_s_fsyst, __pyx_n_s_in_where, __pyx_n_s_neigh_whereaux, __pyx_n_s_wherepos_neigh_stacked, __pyx_n_s_wherepos_neigh_dummy, __pyx_n_s_neigh_count, __pyx_n_s_offwhere, __pyx_n_s_i_idx, __pyx_n_s_hop, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s_auxwhere_list, __pyx_n_s_wherepos_neigh_flat, __pyx_n_s_auxpos_list); if (unlikely(!__pyx_tuple__59)) __PYX_ERR(0, 481, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__59);
+  __Pyx_GIVEREF(__pyx_tuple__59);
+  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(2, 0, 16, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_fullwhere_lists_for_loca, 481, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) __PYX_ERR(0, 481, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":547
+  /* "operatorsHeatCurrent.pyx":546
  * 
  * 
  * def _create_where_lists_from_added_sites(fsyst, intracell_sites, intercell_sites):             # <<<<<<<<<<<<<<
  *     r"""Creates where lists from the sitelists 'intracell_sites' and 'intercell_sites' for lead energy current calculation.
  * 
  */
-  __pyx_tuple__62 = PyTuple_Pack(21, __pyx_n_s_fsyst, __pyx_n_s_intracell_sites, __pyx_n_s_intercell_sites, __pyx_n_s_where, __pyx_n_s_lead_scatreg_where, __pyx_n_s_central_whereaux, __pyx_n_s_lead_whereaux, __pyx_n_s_wherepos_neigh_stacked, __pyx_n_s_wherepos_neigh_dummy, __pyx_n_s_leadhop_count, __pyx_n_s_i_idx, __pyx_n_s_i, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s_num_leadlead_hops, __pyx_n_s_auxwhere_list, __pyx_n_s_wherepos_neigh_flat, __pyx_n_s_auxpos_list, __pyx_n_s_qij, __pyx_n_s_iSiteHoppings, __pyx_n_s_tupel); if (unlikely(!__pyx_tuple__62)) __PYX_ERR(0, 547, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__62);
-  __Pyx_GIVEREF(__pyx_tuple__62);
-  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(3, 0, 21, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_where_lists_from_added_s, 547, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) __PYX_ERR(0, 547, __pyx_L1_error)
+  __pyx_tuple__61 = PyTuple_Pack(21, __pyx_n_s_fsyst, __pyx_n_s_intracell_sites, __pyx_n_s_intercell_sites, __pyx_n_s_where, __pyx_n_s_lead_scatreg_where, __pyx_n_s_central_whereaux, __pyx_n_s_lead_whereaux, __pyx_n_s_wherepos_neigh_stacked, __pyx_n_s_wherepos_neigh_dummy, __pyx_n_s_leadhop_count, __pyx_n_s_i_idx, __pyx_n_s_i, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s_num_leadscat_hops, __pyx_n_s_auxwhere_list, __pyx_n_s_wherepos_neigh_flat, __pyx_n_s_auxpos_list, __pyx_n_s_qij, __pyx_n_s_iSiteHoppings, __pyx_n_s_tupel); if (unlikely(!__pyx_tuple__61)) __PYX_ERR(0, 546, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__61);
+  __Pyx_GIVEREF(__pyx_tuple__61);
+  __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(3, 0, 21, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_where_lists_from_added_s, 546, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) __PYX_ERR(0, 546, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":632
+  /* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
  *     r"""
  *     Creates a list of sites, which are neighbors the sites in 'initial_list'
  */
-  __pyx_tuple__64 = PyTuple_Pack(10, __pyx_n_s_fsyst, __pyx_n_s_initial_list, __pyx_n_s_forbidden_list, __pyx_n_s_neighbor_list, __pyx_n_s_i, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s_genexpr, __pyx_n_s_genexpr, __pyx_n_s_genexpr); if (unlikely(!__pyx_tuple__64)) __PYX_ERR(0, 632, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__64);
-  __Pyx_GIVEREF(__pyx_tuple__64);
-  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_list_of_certain_neighbor, 632, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) __PYX_ERR(0, 632, __pyx_L1_error)
+  __pyx_tuple__63 = PyTuple_Pack(10, __pyx_n_s_fsyst, __pyx_n_s_initial_list, __pyx_n_s_forbidden_list, __pyx_n_s_neighbor_list, __pyx_n_s_i, __pyx_n_s_iedge, __pyx_n_s_neighbor, __pyx_n_s_genexpr, __pyx_n_s_genexpr, __pyx_n_s_genexpr); if (unlikely(!__pyx_tuple__63)) __PYX_ERR(0, 631, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__63);
+  __Pyx_GIVEREF(__pyx_tuple__63);
+  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_operatorsHeatCurrent_pyx, __pyx_n_s_create_list_of_certain_neighbor, 631, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 631, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_offEnergyCurrent(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     if __pyx_checksum != 0xb46209e:
  *         from pickle import PickleError as __pyx_PickleError
  */
-  __pyx_tuple__66 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__66)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__66);
-  __Pyx_GIVEREF(__pyx_tuple__66);
-  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_offEnergyCurrent, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __pyx_tuple__68 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__68)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__68);
-  __Pyx_GIVEREF(__pyx_tuple__68);
-  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_CurrentWithArbitH, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_tuple__65 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__65)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__65);
+  __Pyx_GIVEREF(__pyx_tuple__65);
+  __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_offEnergyCurrent, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_tuple__67 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__67)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__67);
+  __Pyx_GIVEREF(__pyx_tuple__67);
+  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_CurrentWithArbitH, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(1, 1, __pyx_L1_error)
 
   /* "View.MemoryView":285
  *         return self.name
@@ -33954,9 +33932,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_tuple__70 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__70)) __PYX_ERR(1, 285, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__70);
-  __Pyx_GIVEREF(__pyx_tuple__70);
+  __pyx_tuple__69 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__69)) __PYX_ERR(1, 285, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__69);
+  __Pyx_GIVEREF(__pyx_tuple__69);
 
   /* "View.MemoryView":286
  * 
@@ -33965,9 +33943,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_tuple__71 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(1, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__71);
-  __Pyx_GIVEREF(__pyx_tuple__71);
+  __pyx_tuple__70 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__70)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__70);
+  __Pyx_GIVEREF(__pyx_tuple__70);
 
   /* "View.MemoryView":287
  * cdef generic = Enum("<strided and direct or indirect>")
@@ -33976,9 +33954,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__72 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__72)) __PYX_ERR(1, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__72);
-  __Pyx_GIVEREF(__pyx_tuple__72);
+  __pyx_tuple__71 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__71);
+  __Pyx_GIVEREF(__pyx_tuple__71);
 
   /* "View.MemoryView":290
  * 
@@ -33987,9 +33965,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_tuple__73 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(1, 290, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__73);
-  __Pyx_GIVEREF(__pyx_tuple__73);
+  __pyx_tuple__72 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__72)) __PYX_ERR(1, 290, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__72);
+  __Pyx_GIVEREF(__pyx_tuple__72);
 
   /* "View.MemoryView":291
  * 
@@ -33998,19 +33976,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__74 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__74)) __PYX_ERR(1, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__74);
-  __Pyx_GIVEREF(__pyx_tuple__74);
+  __pyx_tuple__73 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__73);
+  __Pyx_GIVEREF(__pyx_tuple__73);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Enum(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     if __pyx_checksum != 0xb068931:
  *         from pickle import PickleError as __pyx_PickleError
  */
-  __pyx_tuple__75 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__75);
-  __Pyx_GIVEREF(__pyx_tuple__75);
-  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_tuple__74 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__74)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__74);
+  __Pyx_GIVEREF(__pyx_tuple__74);
+  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -34085,27 +34063,27 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtabptr_20operatorsHeatCurrent_offEnergyCurrent = &__pyx_vtable_20operatorsHeatCurrent_offEnergyCurrent;
   __pyx_vtable_20operatorsHeatCurrent_offEnergyCurrent.__pyx_base = *__pyx_vtabptr_5kwant_8operator__LocalOperator;
   __pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_base = __pyx_ptype_5kwant_8operator__LocalOperator;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 688, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 687, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_dictoffset && __pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (__Pyx_SetVtable(__pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_dict, __pyx_vtabptr_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 688, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_offEnergyCurrent, (PyObject *)&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 688, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 688, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_20operatorsHeatCurrent_offEnergyCurrent.tp_dict, __pyx_vtabptr_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 687, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_offEnergyCurrent, (PyObject *)&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 687, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_20operatorsHeatCurrent_offEnergyCurrent) < 0) __PYX_ERR(0, 687, __pyx_L1_error)
   __pyx_ptype_20operatorsHeatCurrent_offEnergyCurrent = &__pyx_type_20operatorsHeatCurrent_offEnergyCurrent;
   __pyx_vtabptr_20operatorsHeatCurrent_CurrentWithArbitHop = &__pyx_vtable_20operatorsHeatCurrent_CurrentWithArbitHop;
   __pyx_vtable_20operatorsHeatCurrent_CurrentWithArbitHop.__pyx_base = *__pyx_vtabptr_5kwant_8operator__LocalOperator;
   __pyx_vtable_20operatorsHeatCurrent_CurrentWithArbitHop._eval_arbit_hop_func = (struct __pyx_obj_5kwant_8operator_BlockSparseMatrix *(*)(struct __pyx_obj_20operatorsHeatCurrent_CurrentWithArbitHop *, PyObject *, PyObject *))__pyx_f_20operatorsHeatCurrent_19CurrentWithArbitHop__eval_arbit_hop_func;
   __pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_base = __pyx_ptype_5kwant_8operator__LocalOperator;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 814, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 813, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_dictoffset && __pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
-  if (__Pyx_SetVtable(__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_dict, __pyx_vtabptr_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 814, __pyx_L1_error)
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CurrentWithArbitHop, (PyObject *)&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 814, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 814, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop.tp_dict, __pyx_vtabptr_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 813, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CurrentWithArbitHop, (PyObject *)&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 813, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop) < 0) __PYX_ERR(0, 813, __pyx_L1_error)
   __pyx_ptype_20operatorsHeatCurrent_CurrentWithArbitHop = &__pyx_type_20operatorsHeatCurrent_CurrentWithArbitHop;
   if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct____init__) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent___pyx_scope_struct____init__.tp_print = 0;
@@ -34167,25 +34145,25 @@ static int __Pyx_modinit_type_init_code(void) {
     __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_9_genexpr.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_20operatorsHeatCurrent___pyx_scope_struct_9_genexpr = &__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_9_genexpr;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors) < 0) __PYX_ERR(0, 632, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors) < 0) __PYX_ERR(0, 631, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors.tp_dictoffset && __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors = &__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_10__create_list_of_certain_neighbors;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr) < 0) __PYX_ERR(0, 649, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr) < 0) __PYX_ERR(0, 648, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr.tp_dictoffset && __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr = &__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_11_genexpr;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr) < 0) __PYX_ERR(0, 651, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr) < 0) __PYX_ERR(0, 650, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr.tp_dictoffset && __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr = &__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_12_genexpr;
-  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func) < 0) __PYX_ERR(0, 876, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func) < 0) __PYX_ERR(0, 875, __pyx_L1_error)
   __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func.tp_dictoffset && __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_20operatorsHeatCurrent___pyx_scope_struct_13__eval_arbit_hop_func.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
@@ -34924,47 +34902,47 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_create_fullwhere_lists_for_loca, __pyx_t_1) < 0) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":547
+  /* "operatorsHeatCurrent.pyx":546
  * 
  * 
  * def _create_where_lists_from_added_sites(fsyst, intracell_sites, intercell_sites):             # <<<<<<<<<<<<<<
  *     r"""Creates where lists from the sitelists 'intracell_sites' and 'intercell_sites' for lead energy current calculation.
  * 
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_9_create_where_lists_from_added_sites, NULL, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 547, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_9_create_where_lists_from_added_sites, NULL, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_create_where_lists_from_added_s, __pyx_t_1) < 0) __PYX_ERR(0, 547, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_create_where_lists_from_added_s, __pyx_t_1) < 0) __PYX_ERR(0, 546, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":632
+  /* "operatorsHeatCurrent.pyx":631
  * 
  * 
  * def _create_list_of_certain_neighbors(fsyst, initial_list, forbidden_list):             # <<<<<<<<<<<<<<
  *     r"""
  *     Creates a list of sites, which are neighbors the sites in 'initial_list'
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_11_create_list_of_certain_neighbors, NULL, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 632, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_20operatorsHeatCurrent_11_create_list_of_certain_neighbors, NULL, __pyx_n_s_operatorsHeatCurrent); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 631, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_create_list_of_certain_neighbor, __pyx_t_1) < 0) __PYX_ERR(0, 632, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_create_list_of_certain_neighbor, __pyx_t_1) < 0) __PYX_ERR(0, 631, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "operatorsHeatCurrent.pyx":1084
+  /* "operatorsHeatCurrent.pyx":1083
  * 
  * 
  * _herm_msg = ('{0} matrix is not hermitian, use the option '             # <<<<<<<<<<<<<<
  *             '`check_hermiticity=True` if this is intentional.')
  * _shape_msg = ('{0} matrix dimensions do not match '
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_herm_msg, __pyx_kp_s_0_matrix_is_not_hermitian_use_t) < 0) __PYX_ERR(0, 1084, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_herm_msg, __pyx_kp_s_0_matrix_is_not_hermitian_use_t) < 0) __PYX_ERR(0, 1083, __pyx_L1_error)
 
-  /* "operatorsHeatCurrent.pyx":1086
+  /* "operatorsHeatCurrent.pyx":1085
  * _herm_msg = ('{0} matrix is not hermitian, use the option '
  *             '`check_hermiticity=True` if this is intentional.')
  * _shape_msg = ('{0} matrix dimensions do not match '             # <<<<<<<<<<<<<<
  *      'the declared number of orbitals')
  * 
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_shape_msg, __pyx_kp_s_0_matrix_dimensions_do_not_matc) < 0) __PYX_ERR(0, 1086, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_shape_msg, __pyx_kp_s_0_matrix_dimensions_do_not_matc) < 0) __PYX_ERR(0, 1085, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_offEnergyCurrent(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
@@ -35019,7 +34997,7 @@ if (!__Pyx_RefNanny) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__70, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 285, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__69, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(generic);
   __Pyx_DECREF_SET(generic, __pyx_t_1);
@@ -35033,7 +35011,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__71, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__70, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(strided);
   __Pyx_DECREF_SET(strided, __pyx_t_1);
@@ -35047,7 +35025,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__72, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__71, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(indirect);
   __Pyx_DECREF_SET(indirect, __pyx_t_1);
@@ -35061,7 +35039,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__73, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 290, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__72, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(contiguous);
   __Pyx_DECREF_SET(contiguous, __pyx_t_1);
@@ -35075,7 +35053,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__74, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__73, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_XGOTREF(indirect_contiguous);
   __Pyx_DECREF_SET(indirect_contiguous, __pyx_t_1);
